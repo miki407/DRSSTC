@@ -4,6 +4,13 @@
 
   (paper "A4")
 
+  (title_block
+    (title "DRSSTC Full Bridge")
+    (date "2023-03-07")
+    (rev "0.2")
+    (company "Politehnika")
+  )
+
   (lib_symbols
     (symbol "Connector:Conn_01x01_Female" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
       (property "Reference" "J" (id 0) (at 0 2.54 0)
