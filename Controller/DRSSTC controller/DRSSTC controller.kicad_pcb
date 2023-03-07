@@ -5,6 +5,13 @@
   )
 
   (paper "A4")
+  (title_block
+    (title "DRSSTC controller")
+    (date "2023-03-07")
+    (rev "0.2")
+    (company "Politehnika")
+  )
+
   (layers
     (0 "F.Cu" signal)
     (31 "B.Cu" signal)
@@ -209,7 +216,7 @@
       (net 11 "+5V") (pintype "passive") (tstamp a836458a-10b1-46c3-9ca8-4362651d5a78))
     (pad "2" smd roundrect (at 0.9125 0 90) (size 1.025 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.243902)
       (net 18 "Net-(C513-Pad1)") (pintype "passive") (tstamp 8dd24a66-e46a-47fc-9288-5659275fee34))
-    (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.wrl"
+    (model "${KIPRJMOD}/packages3D/R_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -271,7 +278,7 @@
       (net 8 "Net-(C406-Pad1)") (pinfunction "D") (pintype "passive") (tstamp 6c6abfdf-460b-4bc6-9019-c0c7c36f1fc3))
     (pad "3" smd rect (at -4.2 2.28) (size 2.2 1.2) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 5 "VCC") (pinfunction "S") (pintype "passive") (tstamp 5e4cf323-0cc5-4711-8f68-2bd84fbcaf50))
-    (model "${KICAD6_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/TO-252-2.wrl"
+    (model "${KIPRJMOD}/packages3D/TO-252-2.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -315,7 +322,7 @@
       (net 13 "Net-(C508-Pad1)") (pinfunction "K") (pintype "passive") (tstamp cc6aaa04-78f7-4d35-9c6b-661250309ac9))
     (pad "2" smd roundrect (at 0.9375 0 180) (size 0.975 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 23 "Net-(D503-Pad2)") (pinfunction "A") (pintype "passive") (tstamp 0e312546-2ec2-4203-bfe0-48fc0d1fd999))
-    (model "${KICAD6_3DMODEL_DIR}/Diode_SMD.3dshapes/D_0805_2012Metric.wrl"
+    (model "${KIPRJMOD}/packages3D/D_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -357,7 +364,7 @@
       (net 11 "+5V") (pintype "passive") (tstamp 39fec2bf-b097-43d7-ab4a-2ea186f744bb))
     (pad "2" smd roundrect (at 0.95 0 180) (size 1 1.45) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 2 "GND") (pintype "passive") (tstamp 6ca54ff6-de20-48f3-8de2-b489addb000e))
-    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.wrl"
+    (model "${KIPRJMOD}/packages3D/C_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -424,11 +431,205 @@
       (net 23 "Net-(D503-Pad2)") (pinfunction "Pin_1") (pintype "passive") (tstamp 1fc1420c-6690-402d-ac80-fbd650837241))
     (pad "2" thru_hole circle (at 3.5 0 270) (size 2.4 2.4) (drill 1.2) (layers *.Cu *.Mask)
       (net 22 "Net-(D501-Pad2)") (pinfunction "Pin_2") (pintype "passive") (tstamp 79b0d841-84ba-4efb-9bdb-a7f2cab1be31))
-    (model "${KICAD6_3DMODEL_DIR}/TerminalBlock_Phoenix.3dshapes/TerminalBlock_Phoenix_PT-1,5-2-3.5-H_1x02_P3.50mm_Horizontal.wrl"
+    (model "${KIPRJMOD}/packages3D/TerminalBlock_Phoenix_PT-1,5-2-3.5-H_1x02_P3.50mm_Horizontal.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+  )
+
+  (footprint "kibuzzard-64072E6F" (layer "F.Cu")
+    (tedit 64072E6F) (tstamp 0a754562-2ffe-4018-9544-8fc99ed9ab95)
+    (at 106.934 91.186)
+    (descr "Generated with KiBuzzard")
+    (tags "kb_params=eyJBbGlnbm1lbnRDaG9pY2UiOiAiQ2VudGVyIiwgIkNhcExlZnRDaG9pY2UiOiAiWyIsICJDYXBSaWdodENob2ljZSI6ICJdIiwgIkZvbnRDb21ib0JveCI6ICJSb2JvdG8tQm9sZCIsICJIZWlnaHRDdHJsIjogIjIiLCAiTGF5ZXJDb21ib0JveCI6ICJGLlNpbGtTIiwgIk11bHRpTGluZVRleHQiOiAiUE9XRVJcclxuIiwgIlBhZGRpbmdCb3R0b21DdHJsIjogIjUiLCAiUGFkZGluZ0xlZnRDdHJsIjogIjUiLCAiUGFkZGluZ1JpZ2h0Q3RybCI6ICI1IiwgIlBhZGRpbmdUb3BDdHJsIjogIjUiLCAiV2lkdGhDdHJsIjogIiJ9")
+    (attr board_only exclude_from_pos_files exclude_from_bom)
+    (fp_text reference "kibuzzard-64072E6F" (at 0 -4.869077) (layer "F.SilkS") hide
+      (effects (font (size 0 0) (thickness 0.15)))
+      (tstamp d2382d3f-2a45-4bcb-9ad6-0da0471d31db)
+    )
+    (fp_text value "G***" (at 0 4.869077) (layer "F.SilkS") hide
+      (effects (font (size 0 0) (thickness 0.15)))
+      (tstamp 6eabe8cb-37ab-48f0-943a-49cf5173f5ac)
+    )
+    (fp_poly (pts
+        (xy -5.280298 -1.821077)
+        (xy -5.941756 -1.821077)
+        (xy -5.941756 1.821077)
+        (xy -5.280298 1.821077)
+        (xy -4.81521 1.821077)
+        (xy -4.81521 1.128613)
+        (xy -5.280298 1.128613)
+        (xy -5.280298 -1.128613)
+        (xy -4.399731 -1.128613)
+        (xy -4.160793 -1.105359)
+        (xy -3.952472 -1.035596)
+        (xy -3.781746 -0.923006)
+        (xy -3.655591 -0.771271)
+        (xy -3.577689 -0.588142)
+        (xy -3.551721 -0.381372)
+        (xy -3.576957 -0.175786)
+        (xy -3.652662 -0.001378)
+        (xy -3.778839 0.141852)
+        (xy -3.94963 0.248219)
+        (xy -4.159178 0.31204)
+        (xy -4.407483 0.333313)
+        (xy -4.81521 0.333313)
+        (xy -4.81521 1.128613)
+        (xy -4.81521 1.821077)
+        (xy -2.336292 1.821077)
+        (xy -2.336292 1.159619)
+        (xy -2.516642 1.144633)
+        (xy -2.683557 1.099674)
+        (xy -2.837036 1.024744)
+        (xy -2.972773 0.921994)
+        (xy -3.086461 0.793578)
+        (xy -3.178101 0.639496)
+        (xy -3.245452 0.464227)
+        (xy -3.286277 0.272249)
+        (xy -3.300574 0.063562)
+        (xy -3.300574 -0.048059)
+        (xy -3.287224 -0.261397)
+        (xy -3.247175 -0.456992)
+        (xy -3.180426 -0.634845)
+        (xy -3.089303 -0.790736)
+        (xy -2.976132 -0.920443)
+        (xy -2.840912 -1.023969)
+        (xy -2.687691 -1.09933)
+        (xy -2.520518 -1.144547)
+        (xy -2.339392 -1.159619)
+        (xy -2.158266 -1.144547)
+        (xy -1.991093 -1.09933)
+        (xy -1.837872 -1.023969)
+        (xy -1.702652 -0.920443)
+        (xy -1.589481 -0.790736)
+        (xy -1.498358 -0.634845)
+        (xy -1.431609 -0.457164)
+        (xy -1.39156 -0.262086)
+        (xy -1.37821 -0.049609)
+        (xy -1.37821 0.05116)
+        (xy -1.391302 0.264239)
+        (xy -1.430576 0.459059)
+        (xy -1.496033 0.63562)
+        (xy -1.585864 0.790305)
+        (xy -1.69826 0.919496)
+        (xy -1.833221 1.023193)
+        (xy -1.986614 1.098985)
+        (xy -2.154304 1.144461)
+        (xy -2.336292 1.159619)
+        (xy -2.336292 1.821077)
+        (xy 0.984436 1.821077)
+        (xy 0.984436 1.128613)
+        (xy 0.516248 1.128613)
+        (xy 0.148828 -0.381372)
+        (xy -0.218591 1.128613)
+        (xy -0.68678 1.128613)
+        (xy -1.187524 -1.128613)
+        (xy -0.723987 -1.128613)
+        (xy -0.418579 0.47439)
+        (xy -0.046509 -1.128613)
+        (xy 0.347266 -1.128613)
+        (xy 0.717786 0.47749)
+        (xy 1.021643 -1.128613)
+        (xy 1.485181 -1.128613)
+        (xy 0.984436 1.128613)
+        (xy 0.984436 1.821077)
+        (xy 3.249414 1.821077)
+        (xy 3.249414 1.128613)
+        (xy 1.736328 1.128613)
+        (xy 1.736328 -1.128613)
+        (xy 3.246313 -1.128613)
+        (xy 3.246313 -0.751892)
+        (xy 2.201416 -0.751892)
+        (xy 2.201416 -0.21394)
+        (xy 3.094385 -0.21394)
+        (xy 3.094385 0.150378)
+        (xy 2.201416 0.150378)
+        (xy 2.201416 0.754993)
+        (xy 3.249414 0.754993)
+        (xy 3.249414 1.128613)
+        (xy 3.249414 1.821077)
+        (xy 3.987354 1.821077)
+        (xy 3.987354 1.128613)
+        (xy 3.522266 1.128613)
+        (xy 3.522266 -1.128613)
+        (xy 4.360974 -1.128613)
+        (xy 4.607298 -1.108804)
+        (xy 4.812971 -1.049376)
+        (xy 4.977991 -0.95033)
+        (xy 5.098569 -0.81511)
+        (xy 5.170916 -0.647161)
+        (xy 5.195032 -0.446484)
+        (xy 5.170033 -0.234676)
+        (xy 5.095038 -0.061237)
+        (xy 4.96927 0.077321)
+        (xy 4.791956 0.184485)
+        (xy 5.280298 1.106909)
+        (xy 5.280298 1.128613)
+        (xy 4.781104 1.128613)
+        (xy 4.357874 0.302307)
+        (xy 3.987354 0.302307)
+        (xy 3.987354 1.128613)
+        (xy 3.987354 1.821077)
+        (xy 5.280298 1.821077)
+        (xy 5.941756 1.821077)
+        (xy 5.941756 -1.821077)
+        (xy 5.280298 -1.821077)
+        (xy -5.280298 -1.821077)
+      ) (layer "F.SilkS") (width 0) (fill solid) (tstamp 80b6e998-ac52-41d2-91cc-fd14cc9e3265))
+    (fp_poly (pts
+        (xy -4.81521 -0.043408)
+        (xy -4.399731 -0.043408)
+        (xy -4.237144 -0.065112)
+        (xy -4.118353 -0.130225)
+        (xy -4.045683 -0.235645)
+        (xy -4.02146 -0.378271)
+        (xy -4.045877 -0.528262)
+        (xy -4.119128 -0.646472)
+        (xy -4.2354 -0.723987)
+        (xy -4.388879 -0.751892)
+        (xy -4.81521 -0.751892)
+        (xy -4.81521 -0.043408)
+      ) (layer "F.SilkS") (width 0) (fill solid) (tstamp 9eb9daf3-0450-4c15-ab6f-eac27adef528))
+    (fp_poly (pts
+        (xy 3.987354 -0.074414)
+        (xy 4.362524 -0.074414)
+        (xy 4.517941 -0.0967)
+        (xy 4.633826 -0.163556)
+        (xy 4.705914 -0.269557)
+        (xy 4.729944 -0.409277)
+        (xy 4.707271 -0.551904)
+        (xy 4.639252 -0.660425)
+        (xy 4.524336 -0.729025)
+        (xy 4.360974 -0.751892)
+        (xy 3.987354 -0.751892)
+        (xy 3.987354 -0.074414)
+      ) (layer "F.SilkS") (width 0) (fill solid) (tstamp a7d5700a-42ac-4b5b-bfd9-d43236b51161))
+    (fp_poly (pts
+        (xy -1.8495 -0.05116)
+        (xy -1.863624 -0.26889)
+        (xy -1.905999 -0.448724)
+        (xy -1.976624 -0.590662)
+        (xy -2.130878 -0.729025)
+        (xy -2.339392 -0.775146)
+        (xy -2.546744 -0.729607)
+        (xy -2.70061 -0.592987)
+        (xy -2.771407 -0.452686)
+        (xy -2.814299 -0.27466)
+        (xy -2.829285 -0.058911)
+        (xy -2.829285 0.05116)
+        (xy -2.81516 0.264411)
+        (xy -2.772785 0.443212)
+        (xy -2.702161 0.587561)
+        (xy -2.547131 0.730576)
+        (xy -2.336292 0.778247)
+        (xy -2.129327 0.73232)
+        (xy -1.976624 0.594537)
+        (xy -1.906688 0.453375)
+        (xy -1.864313 0.274832)
+        (xy -1.8495 0.058911)
+        (xy -1.8495 -0.05116)
+      ) (layer "F.SilkS") (width 0) (fill solid) (tstamp c74f940c-9602-4aaf-9974-66e279bd657e))
   )
 
   (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" (layer "F.Cu")
@@ -471,7 +672,7 @@
       (net 2 "GND") (pinfunction "Pin_1") (pintype "passive") (tstamp 688195aa-0a7d-45d8-932f-64a442d1f764))
     (pad "2" thru_hole oval (at 0 2.54 180) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 6 "+12V") (pinfunction "Pin_2") (pintype "passive") (tstamp f52e8f96-b27b-4d26-bc9d-49e722f176cf))
-    (model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x02_P2.54mm_Vertical.wrl"
+    (model "${KIPRJMOD}/packages3D/PinHeader_1x02_P2.54mm_Vertical.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -544,7 +745,7 @@
       (net 33 "GDT_INA") (pinfunction "Pin_1") (pintype "passive") (tstamp 77f10bf3-9776-412d-b9c8-5ccade8dfa10))
     (pad "2" thru_hole oval (at 0 2.54 270) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 32 "GDT_INB") (pinfunction "Pin_2") (pintype "passive") (tstamp 804f583f-7921-41a0-b6cd-d7b4e226748d))
-    (model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x02_P2.54mm_Vertical.wrl"
+    (model "${KIPRJMOD}/packages3D/PinHeader_1x02_P2.54mm_Vertical.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -588,7 +789,7 @@
       (net 22 "Net-(D501-Pad2)") (pinfunction "K") (pintype "passive") (tstamp 312febc5-947f-424a-965f-d7c1a864b8ac))
     (pad "2" smd roundrect (at 0.9375 0) (size 0.975 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 2 "GND") (pinfunction "A") (pintype "passive") (tstamp 2727b13e-150e-443d-b461-7edb9481f27b))
-    (model "${KICAD6_3DMODEL_DIR}/Diode_SMD.3dshapes/D_0805_2012Metric.wrl"
+    (model "${KIPRJMOD}/packages3D/D_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -630,7 +831,7 @@
       (net 1 "+9V") (pintype "passive") (tstamp b8b7baf9-f673-4c4c-a243-5fd0f197dee0))
     (pad "2" smd roundrect (at 1.475 0 180) (size 1.15 1.8) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.217391)
       (net 2 "GND") (pintype "passive") (tstamp 09b8fc46-50f7-4619-9754-cf37500f7b76))
-    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1206_3216Metric.wrl"
+    (model "${KIPRJMOD}/packages3D/C_1206_3216Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -687,7 +888,7 @@
       (net 17 "LED_overcurrent") (pintype "open_collector") (tstamp ca0ad220-c4db-4184-8551-d76bab64983e))
     (pad "8" smd roundrect (at 2.575 -1.905 270) (size 1.75 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 11 "+5V") (pinfunction "V+") (pintype "power_in") (tstamp 58a38e36-b3f2-40d2-a098-c8c0f62a56e1))
-    (model "${KICAD6_3DMODEL_DIR}/Package_SO.3dshapes/SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.35x2.35mm.step"
+    (model "${KIPRJMOD}/packages3D/SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.35x2.35mm.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -844,7 +1045,7 @@
       (net 6 "+12V") (pintype "passive") (tstamp f9f4ad8b-196f-4985-aba8-aabec2dbdede))
     (pad "2" thru_hole circle (at 2.5 0 270) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask)
       (net 2 "GND") (pintype "passive") (tstamp 347470c3-2082-42ae-9634-f643001004f0))
-    (model "${KICAD6_3DMODEL_DIR}/Capacitor_THT.3dshapes/CP_Radial_D5.0mm_P2.50mm.wrl"
+    (model "${KIPRJMOD}/packages3D/CP_Radial_D5.0mm_P2.50mm.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -886,7 +1087,7 @@
       (net 2 "GND") (pintype "passive") (tstamp 1879a929-bbe9-40c6-bb83-1d881f2a3d82))
     (pad "2" smd roundrect (at 0.9125 0) (size 1.025 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.243902)
       (net 24 "LED_inteep") (pintype "passive") (tstamp b850d02d-5cf8-4220-8a2e-4b446bea4b7b))
-    (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.wrl"
+    (model "${KIPRJMOD}/packages3D/R_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -928,7 +1129,7 @@
       (net 5 "VCC") (pintype "passive") (tstamp 377e6728-8b07-4946-b46b-5697890fedd9))
     (pad "2" smd roundrect (at 0.9125 0 90) (size 1.025 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.243902)
       (net 7 "/GDT_primary/BottomSide_PGate") (pintype "passive") (tstamp 002d3b66-f05e-4c70-98bd-60b199810228))
-    (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.wrl"
+    (model "${KIPRJMOD}/packages3D/R_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -970,7 +1171,7 @@
       (net 2 "GND") (pintype "passive") (tstamp 2ac28de2-b865-45a1-ae0e-3e3f2fecae31))
     (pad "2" smd roundrect (at 0.95 0 90) (size 1 1.45) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 11 "+5V") (pintype "passive") (tstamp c4bfcb59-a41a-43cb-887c-1ab695bb94d2))
-    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.wrl"
+    (model "${KIPRJMOD}/packages3D/C_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1014,7 +1215,7 @@
       (net 2 "GND") (pinfunction "K") (pintype "passive") (tstamp 1db244a4-c7db-4d66-aead-5db5d35e11f6))
     (pad "2" smd roundrect (at 0.9375 0 270) (size 0.975 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 51 "Net-(D510-Pad2)") (pinfunction "A") (pintype "passive") (tstamp 7558fd1d-fee4-4db9-88ae-8cb3b3d51cff))
-    (model "${KICAD6_3DMODEL_DIR}/LED_SMD.3dshapes/LED_0805_2012Metric.wrl"
+    (model "${KIPRJMOD}/packages3D/LED_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1056,7 +1257,7 @@
       (net 5 "VCC") (pintype "passive") (tstamp 338c6812-ffdb-4a83-890d-bbc12a8076d0))
     (pad "2" smd roundrect (at 0.9125 0) (size 1.025 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.243902)
       (net 52 "/Power_regulation/Vcc_LED") (pintype "passive") (tstamp 30a97488-4123-461b-afab-3c39c0c25d02))
-    (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.wrl"
+    (model "${KIPRJMOD}/packages3D/R_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1098,7 +1299,7 @@
       (net 28 "Net-(D511-Pad1)") (pintype "passive") (tstamp 896c98b8-37bb-44fe-bb5d-4822fcecffbe))
     (pad "2" smd roundrect (at 0.9125 0) (size 1.025 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.243902)
       (net 21 "Net-(C515-Pad1)") (pintype "passive") (tstamp b24f8857-c11c-4efd-9c70-fa88c2120e1c))
-    (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.wrl"
+    (model "${KIPRJMOD}/packages3D/R_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1140,7 +1341,7 @@
       (net 14 "Net-(C509-Pad1)") (pintype "passive") (tstamp 570cdfe5-d76f-4cef-b235-0b769d301a79))
     (pad "2" smd roundrect (at 0.9125 0 270) (size 1.025 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.243902)
       (net 16 "Net-(C511-Pad2)") (pintype "passive") (tstamp a07ff62a-7edf-4f0a-ae9b-7ff3b2d231a8))
-    (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.wrl"
+    (model "${KIPRJMOD}/packages3D/R_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1182,7 +1383,7 @@
       (net 7 "/GDT_primary/BottomSide_PGate") (pintype "passive") (tstamp 9a1a0a30-3ae4-462e-92f0-c552234f4059))
     (pad "2" smd roundrect (at 0.95 0 270) (size 1 1.45) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 9 "/GDT_primary/BottomSide_NGate") (pintype "passive") (tstamp a6ad4de7-ef7a-4f8b-b40c-36770b04d834))
-    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.wrl"
+    (model "${KIPRJMOD}/packages3D/C_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1231,7 +1432,7 @@
       (net 14 "Net-(C509-Pad1)") (pinfunction "Pin_2") (pintype "passive") (tstamp 47f5c983-8313-4a9d-a0b8-063e7b3041b9))
     (pad "3" thru_hole oval (at 0 5.08) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 31 "Net-(J507-Pad3)") (pinfunction "Pin_3") (pintype "passive") (tstamp b0cd6fda-27e6-4b15-8701-79c49e47518d))
-    (model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x03_P2.54mm_Vertical.wrl"
+    (model "${KIPRJMOD}/packages3D/PinHeader_1x03_P2.54mm_Vertical.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1273,7 +1474,7 @@
       (net 11 "+5V") (pintype "passive") (tstamp 91a4dde8-20d2-4567-9e5b-c38e6d8ecdee))
     (pad "2" smd roundrect (at 0.95 0 180) (size 1 1.45) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 2 "GND") (pintype "passive") (tstamp 3578faba-9abb-41d5-b200-a0f17bafa5c8))
-    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.wrl"
+    (model "${KIPRJMOD}/packages3D/C_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1315,7 +1516,7 @@
       (net 1 "+9V") (pintype "passive") (tstamp daab308a-c748-4331-af74-1dfc26457b20))
     (pad "2" smd roundrect (at 0.9125 0) (size 1.025 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.243902)
       (net 53 "/Power_regulation/9V_LED") (pintype "passive") (tstamp b38035b7-58bc-446c-8dfe-c595d541c54d))
-    (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.wrl"
+    (model "${KIPRJMOD}/packages3D/R_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1359,7 +1560,7 @@
       (net 23 "Net-(D503-Pad2)") (pinfunction "K") (pintype "passive") (tstamp db77d6b0-f096-4686-889d-cf3930562ffd))
     (pad "2" smd roundrect (at 0.9375 0) (size 0.975 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 2 "GND") (pinfunction "A") (pintype "passive") (tstamp 9a4e726e-489b-44c2-b2ff-68cd7634fdad))
-    (model "${KICAD6_3DMODEL_DIR}/Diode_SMD.3dshapes/D_0805_2012Metric.wrl"
+    (model "${KIPRJMOD}/packages3D/D_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1410,7 +1611,7 @@
       (net 27 "Net-(D507-Pad2)") (pinfunction "-") (pintype "input") (tstamp b338f611-b8a4-4bf2-90ab-85304f96bc94))
     (pad "5" smd roundrect (at 1.1375 -0.95 270) (size 1.325 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 11 "+5V") (pinfunction "V+") (pintype "power_in") (tstamp 7c14cafa-f0e1-4208-ae42-f190822c157d))
-    (model "${KICAD6_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23-5.wrl"
+    (model "${KIPRJMOD}/packages3D/SOT-23-5.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1452,7 +1653,7 @@
       (net 39 "Net-(R513-Pad2)") (pintype "passive") (tstamp a530ea2c-61fd-4295-8cff-628a634b3132))
     (pad "2" smd roundrect (at 0.9125 0 90) (size 1.025 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.243902)
       (net 2 "GND") (pintype "passive") (tstamp 518a693e-f8c0-45b7-9823-73595ac542fb))
-    (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.wrl"
+    (model "${KIPRJMOD}/packages3D/R_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1483,6 +1684,139 @@
     (fp_circle (center 0 0) (end 3.2 0) (layer "Cmts.User") (width 0.15) (fill none) (tstamp 75692e77-e63a-48c3-8458-5c74872da651))
     (fp_circle (center 0 0) (end 3.45 0) (layer "F.CrtYd") (width 0.05) (fill none) (tstamp 8b6d1a12-51b4-465d-b53f-a610e090e8ba))
     (pad "" np_thru_hole circle (at 0 0) (size 3.2 3.2) (drill 3.2) (layers *.Cu *.Mask) (tstamp 3522a598-3ca8-4968-9802-b5c1fa26cdd6))
+  )
+
+  (footprint "kibuzzard-64072E65" (layer "F.Cu")
+    (tedit 64072E65) (tstamp 3e72821d-b7f9-49a1-a069-4d6a610282a2)
+    (at 121.92 124.714)
+    (descr "Generated with KiBuzzard")
+    (tags "kb_params=eyJBbGlnbm1lbnRDaG9pY2UiOiAiQ2VudGVyIiwgIkNhcExlZnRDaG9pY2UiOiAiWyIsICJDYXBSaWdodENob2ljZSI6ICJdIiwgIkZvbnRDb21ib0JveCI6ICJSb2JvdG8tQm9sZCIsICJIZWlnaHRDdHJsIjogIjIiLCAiTGF5ZXJDb21ib0JveCI6ICJGLlNpbGtTIiwgIk11bHRpTGluZVRleHQiOiAiR0RUIiwgIlBhZGRpbmdCb3R0b21DdHJsIjogIjUiLCAiUGFkZGluZ0xlZnRDdHJsIjogIjUiLCAiUGFkZGluZ1JpZ2h0Q3RybCI6ICI1IiwgIlBhZGRpbmdUb3BDdHJsIjogIjUiLCAiV2lkdGhDdHJsIjogIiJ9")
+    (attr board_only exclude_from_pos_files exclude_from_bom)
+    (fp_text reference "kibuzzard-64072E65" (at 0 -4.869077) (layer "F.SilkS") hide
+      (effects (font (size 0 0) (thickness 0.15)))
+      (tstamp fecf9f2a-e2c2-4a25-a85f-b5bff429ef44)
+    )
+    (fp_text value "G***" (at 0 4.869077) (layer "F.SilkS") hide
+      (effects (font (size 0 0) (thickness 0.15)))
+      (tstamp aa9b4f0c-22cb-4e1b-a7ad-835126340227)
+    )
+    (fp_poly (pts
+        (xy -0.306958 -0.751892)
+        (xy -0.306958 0.754993)
+        (xy -0.082166 0.754993)
+        (xy 0.158517 0.710422)
+        (xy 0.334863 0.576709)
+        (xy 0.415306 0.4408)
+        (xy 0.464399 0.270785)
+        (xy 0.482141 0.066663)
+        (xy 0.482141 -0.05271)
+        (xy 0.466294 -0.263636)
+        (xy 0.418751 -0.437527)
+        (xy 0.339514 -0.574384)
+        (xy 0.163943 -0.707515)
+        (xy -0.077515 -0.751892)
+        (xy -0.306958 -0.751892)
+      ) (layer "F.SilkS") (width 0) (fill solid) (tstamp 7f25282f-04c1-46a4-83b8-78ed82d094cd))
+    (fp_poly (pts
+        (xy -2.990515 -1.821077)
+        (xy -3.651973 -1.821077)
+        (xy -3.651973 1.821077)
+        (xy -2.990515 1.821077)
+        (xy -2.01228 1.821077)
+        (xy -2.01228 1.159619)
+        (xy -2.199607 1.145408)
+        (xy -2.370915 1.102775)
+        (xy -2.526202 1.03172)
+        (xy -2.721927 0.874947)
+        (xy -2.867267 0.660425)
+        (xy -2.93436 0.488687)
+        (xy -2.975443 0.298001)
+        (xy -2.990515 0.088367)
+        (xy -2.990515 -0.065112)
+        (xy -2.977854 -0.280345)
+        (xy -2.939872 -0.475423)
+        (xy -2.876569 -0.650348)
+        (xy -2.73743 -0.868552)
+        (xy -2.547906 -1.028619)
+        (xy -2.396581 -1.101397)
+        (xy -2.228891 -1.145064)
+        (xy -2.044836 -1.159619)
+        (xy -1.796617 -1.138346)
+        (xy -1.587328 -1.074525)
+        (xy -1.416968 -0.968158)
+        (xy -1.286571 -0.821139)
+        (xy -1.197171 -0.635362)
+        (xy -1.148767 -0.410828)
+        (xy -1.601453 -0.410828)
+        (xy -1.651256 -0.578647)
+        (xy -1.738654 -0.694531)
+        (xy -1.864809 -0.761969)
+        (xy -2.030884 -0.784448)
+        (xy -2.239786 -0.739877)
+        (xy -2.392102 -0.606165)
+        (xy -2.461176 -0.468016)
+        (xy -2.503034 -0.291283)
+        (xy -2.517676 -0.075964)
+        (xy -2.517676 0.068213)
+        (xy -2.50269 0.285598)
+        (xy -2.457731 0.464399)
+        (xy -2.3828 0.604614)
+        (xy -2.216531 0.740652)
+        (xy -1.987476 0.785999)
+        (xy -1.763071 0.758093)
+        (xy -1.613855 0.674377)
+        (xy -1.613855 0.285254)
+        (xy -2.037085 0.285254)
+        (xy -2.037085 -0.057361)
+        (xy -1.148767 -0.057361)
+        (xy -1.148767 0.843359)
+        (xy -1.300308 0.976878)
+        (xy -1.503784 1.076678)
+        (xy -1.74563 1.138884)
+        (xy -2.01228 1.159619)
+        (xy -2.01228 1.821077)
+        (xy -0.772046 1.821077)
+        (xy -0.772046 1.128613)
+        (xy -0.772046 -1.128613)
+        (xy -0.077515 -1.128613)
+        (xy 0.113947 -1.113713)
+        (xy 0.291455 -1.069013)
+        (xy 0.455011 -0.994513)
+        (xy 0.600136 -0.892538)
+        (xy 0.72235 -0.765414)
+        (xy 0.821655 -0.613141)
+        (xy 0.894864 -0.4408)
+        (xy 0.938789 -0.253473)
+        (xy 0.95343 -0.05116)
+        (xy 0.95343 0.05271)
+        (xy 0.939047 0.254765)
+        (xy 0.895897 0.441317)
+        (xy 0.823981 0.612366)
+        (xy 0.725882 0.763433)
+        (xy 0.604184 0.89004)
+        (xy 0.458887 0.992188)
+        (xy 0.295072 1.067291)
+        (xy 0.117822 1.112766)
+        (xy -0.072864 1.128613)
+        (xy -0.772046 1.128613)
+        (xy -0.772046 1.821077)
+        (xy 2.299084 1.821077)
+        (xy 2.299084 1.128613)
+        (xy 1.833997 1.128613)
+        (xy 1.833997 -0.751892)
+        (xy 1.151868 -0.751892)
+        (xy 1.151868 -1.128613)
+        (xy 2.990515 -1.128613)
+        (xy 2.990515 -0.751892)
+        (xy 2.299084 -0.751892)
+        (xy 2.299084 1.128613)
+        (xy 2.299084 1.821077)
+        (xy 2.990515 1.821077)
+        (xy 3.651973 1.821077)
+        (xy 3.651973 -1.821077)
+        (xy 2.990515 -1.821077)
+        (xy -2.990515 -1.821077)
+      ) (layer "F.SilkS") (width 0) (fill solid) (tstamp d92bb653-2f1a-445f-929f-d22f9b845698))
   )
 
   (footprint "Package_TO_SOT_SMD:TO-252-2" (layer "F.Cu")
@@ -1540,7 +1874,7 @@
       (net 2 "GND") (pinfunction "GND") (pintype "power_in") (tstamp 1aba80a4-7d6f-46a8-8782-a2b90e8c31fc))
     (pad "3" smd rect (at -4.2 2.28 270) (size 2.2 1.2) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 11 "+5V") (pinfunction "OUT") (pintype "power_out") (tstamp 96ebbf77-548b-43f9-af47-bcf4a0e0ba13))
-    (model "${KICAD6_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/TO-252-2.wrl"
+    (model "${KIPRJMOD}/packages3D/TO-252-2.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1582,7 +1916,7 @@
       (net 10 "Net-(C407-Pad1)") (pintype "passive") (tstamp da49f214-eaf4-4423-a513-d11fa806253f))
     (pad "2" smd roundrect (at 0.95 0) (size 1 1.45) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 29 "/GDT_primary/GDT_terminal_B") (pintype "passive") (tstamp 311c99cf-03b6-4288-9f29-736d893eded0))
-    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.wrl"
+    (model "${KIPRJMOD}/packages3D/C_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1627,11 +1961,102 @@
     (fp_line (start 1.27 -1.27) (end 1.27 1.27) (layer "F.Fab") (width 0.1) (tstamp 9f644fe0-dd3b-45f0-ac52-b7ca949bc0ae))
     (pad "1" thru_hole rect (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 55 "/GDT_primary/GDT_terminal_A") (pinfunction "Pin_1") (pintype "passive") (tstamp cf34602a-4ceb-4657-9994-998a9dbd8094))
-    (model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x01_P2.54mm_Vertical.wrl"
+    (model "${KIPRJMOD}/packages3D/PinHeader_1x01_P2.54mm_Vertical.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+  )
+
+  (footprint "kibuzzard-64072E85" (layer "F.Cu")
+    (tedit 64072E85) (tstamp 423629dd-551d-425d-a08e-d3a1fa863672)
+    (at 58.928 94.742)
+    (descr "Generated with KiBuzzard")
+    (tags "kb_params=eyJBbGlnbm1lbnRDaG9pY2UiOiAiQ2VudGVyIiwgIkNhcExlZnRDaG9pY2UiOiAiWyIsICJDYXBSaWdodENob2ljZSI6ICJdIiwgIkZvbnRDb21ib0JveCI6ICJSb2JvdG8tQm9sZCIsICJIZWlnaHRDdHJsIjogIjIiLCAiTGF5ZXJDb21ib0JveCI6ICJGLlNpbGtTIiwgIk11bHRpTGluZVRleHQiOiAiRkIiLCAiUGFkZGluZ0JvdHRvbUN0cmwiOiAiNSIsICJQYWRkaW5nTGVmdEN0cmwiOiAiNSIsICJQYWRkaW5nUmlnaHRDdHJsIjogIjUiLCAiUGFkZGluZ1RvcEN0cmwiOiAiNSIsICJXaWR0aEN0cmwiOiAiIn0=")
+    (attr board_only exclude_from_pos_files exclude_from_bom)
+    (fp_text reference "kibuzzard-64072E85" (at 0 -4.838072) (layer "F.SilkS") hide
+      (effects (font (size 0 0) (thickness 0.15)))
+      (tstamp f86c1003-9c80-492c-b64f-ca7243cfa5fa)
+    )
+    (fp_text value "G***" (at 0 4.838072) (layer "F.SilkS") hide
+      (effects (font (size 0 0) (thickness 0.15)))
+      (tstamp 0fa25174-7043-4256-93f6-efa06acf09b8)
+    )
+    (fp_poly (pts
+        (xy -1.708423 -1.790072)
+        (xy -2.369881 -1.790072)
+        (xy -2.369881 1.790072)
+        (xy -1.708423 1.790072)
+        (xy -1.243335 1.790072)
+        (xy -1.243335 1.128613)
+        (xy -1.708423 1.128613)
+        (xy -1.708423 -1.128613)
+        (xy -0.238745 -1.128613)
+        (xy -0.238745 -0.751892)
+        (xy -1.243335 -0.751892)
+        (xy -1.243335 -0.168982)
+        (xy -0.350366 -0.168982)
+        (xy -0.350366 0.206189)
+        (xy -1.243335 0.206189)
+        (xy -1.243335 1.128613)
+        (xy -1.243335 1.790072)
+        (xy 0.031006 1.790072)
+        (xy 0.031006 1.128613)
+        (xy 0.031006 -1.128613)
+        (xy 0.821655 -1.128613)
+        (xy 1.073492 -1.111129)
+        (xy 1.281231 -1.058678)
+        (xy 1.444873 -0.971259)
+        (xy 1.562868 -0.850077)
+        (xy 1.633664 -0.69634)
+        (xy 1.657263 -0.510046)
+        (xy 1.635947 -0.354048)
+        (xy 1.571997 -0.217816)
+        (xy 1.470065 -0.108327)
+        (xy 1.334802 -0.032556)
+        (xy 1.490025 0.032944)
+        (xy 1.608429 0.142627)
+        (xy 1.683424 0.28913)
+        (xy 1.708423 0.465088)
+        (xy 1.685341 0.664559)
+        (xy 1.616094 0.82889)
+        (xy 1.500684 0.958081)
+        (xy 1.342554 1.051443)
+        (xy 1.14515 1.108287)
+        (xy 0.908472 1.128613)
+        (xy 0.031006 1.128613)
+        (xy 0.031006 1.790072)
+        (xy 1.708423 1.790072)
+        (xy 2.369881 1.790072)
+        (xy 2.369881 -1.790072)
+        (xy 1.708423 -1.790072)
+        (xy -1.708423 -1.790072)
+      ) (layer "F.SilkS") (width 0) (fill solid) (tstamp 6263f9e0-b2c7-48aa-a53a-6a3950d6fce5))
+    (fp_poly (pts
+        (xy 0.496094 0.145728)
+        (xy 0.496094 0.754993)
+        (xy 0.894519 0.754993)
+        (xy 1.040828 0.73542)
+        (xy 1.151093 0.676703)
+        (xy 1.243335 0.460437)
+        (xy 1.207678 0.287665)
+        (xy 1.100708 0.182762)
+        (xy 0.922424 0.145728)
+        (xy 0.496094 0.145728)
+      ) (layer "F.SilkS") (width 0) (fill solid) (tstamp 834d8c0b-47fe-4cee-aef9-ee8f43bd9309))
+    (fp_poly (pts
+        (xy 0.496094 -0.182935)
+        (xy 0.840259 -0.182935)
+        (xy 1.035768 -0.216869)
+        (xy 1.153073 -0.310403)
+        (xy 1.192175 -0.463538)
+        (xy 1.16989 -0.595506)
+        (xy 1.103033 -0.684454)
+        (xy 0.988118 -0.735033)
+        (xy 0.821655 -0.751892)
+        (xy 0.496094 -0.751892)
+        (xy 0.496094 -0.182935)
+      ) (layer "F.SilkS") (width 0) (fill solid) (tstamp 8425fd41-955e-48db-bf7d-9f63cfb51d7d))
   )
 
   (footprint "Resistor_SMD:R_0805_2012Metric" (layer "F.Cu")
@@ -1669,7 +2094,7 @@
       (net 18 "Net-(C513-Pad1)") (pintype "passive") (tstamp d69af771-0380-4970-861e-7bfd96728a87))
     (pad "2" smd roundrect (at 0.9125 0 270) (size 1.025 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.243902)
       (net 2 "GND") (pintype "passive") (tstamp f5eb2ae0-fd7a-4b8e-ad6b-b22a8527f741))
-    (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.wrl"
+    (model "${KIPRJMOD}/packages3D/R_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1711,7 +2136,7 @@
       (net 2 "GND") (pintype "passive") (tstamp e0d7a111-7398-4387-a442-dda9a9f9d81c))
     (pad "2" smd roundrect (at 0.95 0) (size 1 1.45) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 12 "Net-(C502-Pad2)") (pintype "passive") (tstamp d6191bdf-9875-4a2b-9c67-660f87c95177))
-    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.wrl"
+    (model "${KIPRJMOD}/packages3D/C_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1753,7 +2178,7 @@
       (net 5 "VCC") (pintype "passive") (tstamp 75ab6e40-ef42-4bae-aa8f-4fa63a4268f0))
     (pad "2" smd roundrect (at 1.475 0) (size 1.15 1.8) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.217391)
       (net 2 "GND") (pintype "passive") (tstamp 65e7e91e-7d35-43d5-b32c-045bf2940ed8))
-    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1206_3216Metric.wrl"
+    (model "${KIPRJMOD}/packages3D/C_1206_3216Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1798,7 +2223,7 @@
     (fp_line (start -1.27 1.27) (end -1.27 -0.635) (layer "F.Fab") (width 0.1) (tstamp d2f21ce9-25b8-49ca-ab96-0927759c6da9))
     (pad "1" thru_hole rect (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 14 "Net-(C509-Pad1)") (pinfunction "Pin_1") (pintype "passive") (tstamp 560f91c7-def8-4a07-85f7-8a8e95a5b1e6))
-    (model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x01_P2.54mm_Vertical.wrl"
+    (model "${KIPRJMOD}/packages3D/PinHeader_1x01_P2.54mm_Vertical.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1833,7 +2258,7 @@
       (net 5 "VCC") (pintype "passive") (tstamp bf3ee60e-9186-408f-9a06-c7abf3a34adc))
     (pad "2" thru_hole circle (at 5 0 180) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask)
       (net 2 "GND") (pintype "passive") (tstamp 9d8a313e-ff99-4db5-9f75-dcacbe60ffaf))
-    (model "${KICAD6_3DMODEL_DIR}/Capacitor_THT.3dshapes/C_Radial_D12.5mm_H25.0mm_P5.00mm.wrl"
+    (model "${KIPRJMOD}/packages3D/C_Radial_D12.5mm_H25.0mm_P5.00mm.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1875,7 +2300,7 @@
       (net 5 "VCC") (pintype "passive") (tstamp 77f09572-8d5e-4bd1-a096-fe63f600410e))
     (pad "2" smd roundrect (at 0.9125 0 90) (size 1.025 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.243902)
       (net 3 "/GDT_primary/TopSide_PGate") (pintype "passive") (tstamp 2200a136-cae4-43cb-984e-070aefb8b75a))
-    (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.wrl"
+    (model "${KIPRJMOD}/packages3D/R_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1919,7 +2344,7 @@
       (net 27 "Net-(D507-Pad2)") (pinfunction "K") (pintype "passive") (tstamp 78fdae6a-c7d9-47d2-b48f-afbd381b5fc2))
     (pad "2" smd roundrect (at 0.9375 0 270) (size 0.975 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 18 "Net-(C513-Pad1)") (pinfunction "A") (pintype "passive") (tstamp f63685f5-b8ba-4f6a-900a-984751a0eee2))
-    (model "${KICAD6_3DMODEL_DIR}/Diode_SMD.3dshapes/D_0805_2012Metric.wrl"
+    (model "${KIPRJMOD}/packages3D/D_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1981,7 +2406,7 @@
       (net 2 "GND") (pinfunction "GND") (pintype "power_in") (tstamp ca275616-f422-48e1-a383-2deeaea7d484))
     (pad "3" smd rect (at -4.2 2.28 270) (size 2.2 1.2) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 1 "+9V") (pinfunction "OUT") (pintype "power_out") (tstamp 13802188-fe72-4f6e-9f28-2a6001d99168))
-    (model "${KICAD6_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/TO-252-2.wrl"
+    (model "${KIPRJMOD}/packages3D/TO-252-2.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2031,7 +2456,7 @@
       (net 5 "VCC") (pinfunction "K") (pintype "passive") (tstamp 18776fb4-e0f2-43a0-a1c4-ae8491e70734))
     (pad "2" smd rect (at 1.75 0 90) (size 1.3 1.7) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 7 "/GDT_primary/BottomSide_PGate") (pinfunction "A") (pintype "passive") (tstamp 22a5e54f-6522-4105-bec4-1bfaba37cc23))
-    (model "${KICAD6_3DMODEL_DIR}/Diode_SMD.3dshapes/D_MiniMELF.wrl"
+    (model "${KIPRJMOD}/packages3D/D_MiniMELF.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2076,7 +2501,7 @@
     (fp_line (start 1.27 -1.27) (end 1.27 1.27) (layer "F.Fab") (width 0.1) (tstamp 69c28ee7-5d79-4bc3-bf8a-53285f9f70e4))
     (pad "1" thru_hole rect (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 23 "Net-(D503-Pad2)") (pinfunction "Pin_1") (pintype "passive") (tstamp 51a685ac-120b-4b9a-8ebd-92f9ac549518))
-    (model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x01_P2.54mm_Vertical.wrl"
+    (model "${KIPRJMOD}/packages3D/PinHeader_1x01_P2.54mm_Vertical.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2118,7 +2543,7 @@
       (net 6 "+12V") (pintype "passive") (tstamp 00129a40-8faa-4c11-be55-c01ee164d514))
     (pad "2" smd roundrect (at 0.95 0 270) (size 1 1.45) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 2 "GND") (pintype "passive") (tstamp 81c0b610-3cb4-42ba-ad72-44d8312d5574))
-    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.wrl"
+    (model "${KIPRJMOD}/packages3D/C_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2160,7 +2585,7 @@
       (net 11 "+5V") (pintype "passive") (tstamp 2bf1470f-092a-42f2-8e62-aec5e8c4daa5))
     (pad "2" smd roundrect (at 0.95 0 90) (size 1 1.45) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 2 "GND") (pintype "passive") (tstamp f4c856f9-599f-4ba0-8dfe-b428a74b3ad9))
-    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.wrl"
+    (model "${KIPRJMOD}/packages3D/C_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2202,11 +2627,209 @@
       (net 11 "+5V") (pintype "passive") (tstamp e2b30eac-0fd3-456b-bdee-77ec1d730770))
     (pad "2" smd roundrect (at 0.9125 0 90) (size 1.025 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.243902)
       (net 17 "LED_overcurrent") (pintype "passive") (tstamp 7eb0d3ed-bfa9-4c0a-98f8-9aed82088db0))
-    (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.wrl"
+    (model "${KIPRJMOD}/packages3D/R_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+  )
+
+  (footprint "kibuzzard-64072EC9" (layer "F.Cu")
+    (tedit 64072EC9) (tstamp 5defd95a-d7aa-4337-a467-c6c555064202)
+    (at 88.9 159.766)
+    (descr "Generated with KiBuzzard")
+    (tags "kb_params=eyJBbGlnbm1lbnRDaG9pY2UiOiAiQ2VudGVyIiwgIkNhcExlZnRDaG9pY2UiOiAiWyIsICJDYXBSaWdodENob2ljZSI6ICJdIiwgIkZvbnRDb21ib0JveCI6ICJSb2JvdG8tQm9sZCIsICJIZWlnaHRDdHJsIjogIjIiLCAiTGF5ZXJDb21ib0JveCI6ICJGLlNpbGtTIiwgIk11bHRpTGluZVRleHQiOiAiT1BUSUMiLCAiUGFkZGluZ0JvdHRvbUN0cmwiOiAiNSIsICJQYWRkaW5nTGVmdEN0cmwiOiAiNSIsICJQYWRkaW5nUmlnaHRDdHJsIjogIjUiLCAiUGFkZGluZ1RvcEN0cmwiOiAiNSIsICJXaWR0aEN0cmwiOiAiIn0=")
+    (attr board_only exclude_from_pos_files exclude_from_bom)
+    (fp_text reference "kibuzzard-64072EC9" (at 0 -4.869077) (layer "F.SilkS") hide
+      (effects (font (size 0 0) (thickness 0.15)))
+      (tstamp 4ede58b7-d1be-4ba2-b14c-9ed07d79b82c)
+    )
+    (fp_text value "G***" (at 0 4.869077) (layer "F.SilkS") hide
+      (effects (font (size 0 0) (thickness 0.15)))
+      (tstamp 024e31c4-4059-407f-8251-fc9182642470)
+    )
+    (fp_poly (pts
+        (xy -1.761133 -0.043408)
+        (xy -1.345654 -0.043408)
+        (xy -1.183067 -0.065112)
+        (xy -1.064276 -0.130225)
+        (xy -0.991606 -0.235645)
+        (xy -0.967383 -0.378271)
+        (xy -0.9918 -0.528262)
+        (xy -1.065051 -0.646472)
+        (xy -1.181323 -0.723987)
+        (xy -1.334802 -0.751892)
+        (xy -1.761133 -0.751892)
+        (xy -1.761133 -0.043408)
+      ) (layer "F.SilkS") (width 0) (fill solid) (tstamp 95182d2f-ed49-4862-bff5-42e11bc81363))
+    (fp_poly (pts
+        (xy -4.486548 -1.821077)
+        (xy -5.148006 -1.821077)
+        (xy -5.148006 1.821077)
+        (xy -4.486548 1.821077)
+        (xy -3.522266 1.821077)
+        (xy -3.522266 1.159619)
+        (xy -3.702616 1.144633)
+        (xy -3.869531 1.099674)
+        (xy -4.02301 1.024744)
+        (xy -4.158747 0.921994)
+        (xy -4.272435 0.793578)
+        (xy -4.364075 0.639496)
+        (xy -4.431426 0.464227)
+        (xy -4.472251 0.272249)
+        (xy -4.486548 0.063562)
+        (xy -4.486548 -0.048059)
+        (xy -4.473198 -0.261397)
+        (xy -4.433149 -0.456992)
+        (xy -4.3664 -0.634845)
+        (xy -4.275277 -0.790736)
+        (xy -4.162106 -0.920443)
+        (xy -4.026886 -1.023969)
+        (xy -3.873665 -1.09933)
+        (xy -3.706492 -1.144547)
+        (xy -3.525366 -1.159619)
+        (xy -3.34424 -1.144547)
+        (xy -3.177067 -1.09933)
+        (xy -3.023846 -1.023969)
+        (xy -2.888626 -0.920443)
+        (xy -2.775455 -0.790736)
+        (xy -2.684332 -0.634845)
+        (xy -2.617584 -0.457164)
+        (xy -2.577534 -0.262086)
+        (xy -2.564185 -0.049609)
+        (xy -2.564185 0.05116)
+        (xy -2.577276 0.264239)
+        (xy -2.61655 0.459059)
+        (xy -2.682007 0.63562)
+        (xy -2.771838 0.790305)
+        (xy -2.884234 0.919496)
+        (xy -3.019196 1.023193)
+        (xy -3.172588 1.098985)
+        (xy -3.340278 1.144461)
+        (xy -3.522266 1.159619)
+        (xy -3.522266 1.821077)
+        (xy -1.761133 1.821077)
+        (xy -1.761133 1.128613)
+        (xy -2.226221 1.128613)
+        (xy -2.226221 -1.128613)
+        (xy -1.345654 -1.128613)
+        (xy -1.106715 -1.105359)
+        (xy -0.898395 -1.035596)
+        (xy -0.727669 -0.923006)
+        (xy -0.601514 -0.771271)
+        (xy -0.523611 -0.588142)
+        (xy -0.497644 -0.381372)
+        (xy -0.522879 -0.175786)
+        (xy -0.598585 -0.001378)
+        (xy -0.724762 0.141852)
+        (xy -0.895553 0.248219)
+        (xy -1.105101 0.31204)
+        (xy -1.353406 0.333313)
+        (xy -1.761133 0.333313)
+        (xy -1.761133 1.128613)
+        (xy -1.761133 1.821077)
+        (xy 0.829407 1.821077)
+        (xy 0.829407 1.128613)
+        (xy 0.364319 1.128613)
+        (xy 0.364319 -0.751892)
+        (xy -0.31781 -0.751892)
+        (xy -0.31781 -1.128613)
+        (xy 1.520837 -1.128613)
+        (xy 1.520837 -0.751892)
+        (xy 0.829407 -0.751892)
+        (xy 0.829407 1.128613)
+        (xy 0.829407 1.821077)
+        (xy 2.280481 1.821077)
+        (xy 2.280481 1.128613)
+        (xy 1.815393 1.128613)
+        (xy 1.815393 -1.128613)
+        (xy 2.280481 -1.128613)
+        (xy 2.280481 1.128613)
+        (xy 2.280481 1.821077)
+        (xy 3.574976 1.821077)
+        (xy 3.574976 1.159619)
+        (xy 3.369513 1.141355)
+        (xy 3.187209 1.086562)
+        (xy 3.028061 0.99524)
+        (xy 2.892072 0.867389)
+        (xy 2.783212 0.70766)
+        (xy 2.705455 0.520705)
+        (xy 2.658801 0.306522)
+        (xy 2.64325 0.065112)
+        (xy 2.64325 -0.072864)
+        (xy 2.655996 -0.281292)
+        (xy 2.694237 -0.472495)
+        (xy 2.757971 -0.646472)
+        (xy 2.897304 -0.865645)
+        (xy 3.085858 -1.027069)
+        (xy 3.235634 -1.100708)
+        (xy 3.40074 -1.144891)
+        (xy 3.581177 -1.159619)
+        (xy 3.824745 -1.136365)
+        (xy 4.034551 -1.066602)
+        (xy 4.210596 -0.95033)
+        (xy 4.347366 -0.792027)
+        (xy 4.43935 -0.596174)
+        (xy 4.486548 -0.362769)
+        (xy 4.02146 -0.362769)
+        (xy 3.982509 -0.551323)
+        (xy 3.899762 -0.679803)
+        (xy 3.767793 -0.753636)
+        (xy 3.581177 -0.778247)
+        (xy 3.377895 -0.736583)
+        (xy 3.233136 -0.611591)
+        (xy 3.168627 -0.480074)
+        (xy 3.129094 -0.307733)
+        (xy 3.114539 -0.094568)
+        (xy 3.114539 0.075964)
+        (xy 3.126855 0.298001)
+        (xy 3.163803 0.476284)
+        (xy 3.225385 0.610815)
+        (xy 3.368205 0.737552)
+        (xy 3.574976 0.779797)
+        (xy 3.763142 0.755186)
+        (xy 3.896661 0.681354)
+        (xy 3.980183 0.555974)
+        (xy 4.018359 0.376721)
+        (xy 4.483447 0.376721)
+        (xy 4.441848 0.602375)
+        (xy 4.352189 0.793578)
+        (xy 4.214471 0.95033)
+        (xy 4.035585 1.066602)
+        (xy 3.82242 1.136365)
+        (xy 3.574976 1.159619)
+        (xy 3.574976 1.821077)
+        (xy 4.486548 1.821077)
+        (xy 5.148006 1.821077)
+        (xy 5.148006 -1.821077)
+        (xy 4.486548 -1.821077)
+        (xy -4.486548 -1.821077)
+      ) (layer "F.SilkS") (width 0) (fill solid) (tstamp 9c12a74e-cfc4-4dcd-a6a2-0e8e15a82c8b))
+    (fp_poly (pts
+        (xy -3.035474 -0.05116)
+        (xy -3.049599 -0.26889)
+        (xy -3.091973 -0.448724)
+        (xy -3.162598 -0.590662)
+        (xy -3.316852 -0.729025)
+        (xy -3.525366 -0.775146)
+        (xy -3.732718 -0.729607)
+        (xy -3.886584 -0.592987)
+        (xy -3.957381 -0.452686)
+        (xy -4.000273 -0.27466)
+        (xy -4.015259 -0.058911)
+        (xy -4.015259 0.05116)
+        (xy -4.001134 0.264411)
+        (xy -3.958759 0.443212)
+        (xy -3.888135 0.587561)
+        (xy -3.733105 0.730576)
+        (xy -3.522266 0.778247)
+        (xy -3.315302 0.73232)
+        (xy -3.162598 0.594537)
+        (xy -3.092662 0.453375)
+        (xy -3.050288 0.274832)
+        (xy -3.035474 0.058911)
+        (xy -3.035474 -0.05116)
+      ) (layer "F.SilkS") (width 0) (fill solid) (tstamp f229d4e1-e7d8-4508-b663-aa7cab92453d))
   )
 
   (footprint "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-2-3.5-H_1x02_P3.50mm_Horizontal" (layer "F.Cu")
@@ -2269,7 +2892,7 @@
       (net 15 "Net-(C509-Pad2)") (pinfunction "Pin_1") (pintype "passive") (tstamp 96673c06-41bd-4722-900b-a31b86a7032b))
     (pad "2" thru_hole circle (at 3.5 0 270) (size 2.4 2.4) (drill 1.2) (layers *.Cu *.Mask)
       (net 14 "Net-(C509-Pad1)") (pinfunction "Pin_2") (pintype "passive") (tstamp 7d6769f6-2d2b-4d7d-a9d3-4aae9d62566a))
-    (model "${KICAD6_3DMODEL_DIR}/TerminalBlock_Phoenix.3dshapes/TerminalBlock_Phoenix_PT-1,5-2-3.5-H_1x02_P3.50mm_Horizontal.wrl"
+    (model "${KIPRJMOD}/packages3D/TerminalBlock_Phoenix_PT-1,5-2-3.5-H_1x02_P3.50mm_Horizontal.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2311,11 +2934,157 @@
       (net 5 "VCC") (pintype "passive") (tstamp 505acc1f-7bf2-476c-a4e4-60df8d8b6346))
     (pad "2" smd roundrect (at 0.95 0) (size 1 1.45) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 2 "GND") (pintype "passive") (tstamp 4fadde28-22c4-40c4-80b4-488dc1143d93))
-    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.wrl"
+    (model "${KIPRJMOD}/packages3D/C_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+  )
+
+  (footprint "kibuzzard-64072E9F" (layer "F.Cu")
+    (tedit 64072E9F) (tstamp 623f4675-82c5-43a5-9ee9-ffa786dbabe3)
+    (at 61.468 125.476)
+    (descr "Generated with KiBuzzard")
+    (tags "kb_params=eyJBbGlnbm1lbnRDaG9pY2UiOiAiQ2VudGVyIiwgIkNhcExlZnRDaG9pY2UiOiAiWyIsICJDYXBSaWdodENob2ljZSI6ICJdIiwgIkZvbnRDb21ib0JveCI6ICJSb2JvdG8tQm9sZCIsICJIZWlnaHRDdHJsIjogIjIiLCAiTGF5ZXJDb21ib0JveCI6ICJGLlNpbGtTIiwgIk11bHRpTGluZVRleHQiOiAiT0MiLCAiUGFkZGluZ0JvdHRvbUN0cmwiOiAiNSIsICJQYWRkaW5nTGVmdEN0cmwiOiAiNSIsICJQYWRkaW5nUmlnaHRDdHJsIjogIjUiLCAiUGFkZGluZ1RvcEN0cmwiOiAiNSIsICJXaWR0aEN0cmwiOiAiIn0=")
+    (attr board_only exclude_from_pos_files exclude_from_bom)
+    (fp_text reference "kibuzzard-64072E9F" (at 0 -4.869077) (layer "F.SilkS") hide
+      (effects (font (size 0 0) (thickness 0.15)))
+      (tstamp 20d01817-028a-43c2-afb2-c12cda625d67)
+    )
+    (fp_text value "G***" (at 0 4.869077) (layer "F.SilkS") hide
+      (effects (font (size 0 0) (thickness 0.15)))
+      (tstamp 3439752d-4ee6-4ffc-b3a1-fb820e21096b)
+    )
+    (fp_poly (pts
+        (xy -2.017706 -1.821077)
+        (xy -2.679165 -1.821077)
+        (xy -2.679165 1.821077)
+        (xy -2.017706 1.821077)
+        (xy -1.053424 1.821077)
+        (xy -1.053424 1.159619)
+        (xy -1.233775 1.144633)
+        (xy -1.40069 1.099674)
+        (xy -1.554169 1.024744)
+        (xy -1.689905 0.921994)
+        (xy -1.803594 0.793578)
+        (xy -1.895233 0.639496)
+        (xy -1.962585 0.464227)
+        (xy -2.003409 0.272249)
+        (xy -2.017706 0.063562)
+        (xy -2.017706 -0.048059)
+        (xy -2.004357 -0.261397)
+        (xy -1.964307 -0.456992)
+        (xy -1.897559 -0.634845)
+        (xy -1.806436 -0.790736)
+        (xy -1.693264 -0.920443)
+        (xy -1.558044 -1.023969)
+        (xy -1.404824 -1.09933)
+        (xy -1.237651 -1.144547)
+        (xy -1.056525 -1.159619)
+        (xy -0.875399 -1.144547)
+        (xy -0.708226 -1.09933)
+        (xy -0.555005 -1.023969)
+        (xy -0.419785 -0.920443)
+        (xy -0.306613 -0.790736)
+        (xy -0.215491 -0.634845)
+        (xy -0.148742 -0.457164)
+        (xy -0.108693 -0.262086)
+        (xy -0.095343 -0.049609)
+        (xy -0.095343 0.05116)
+        (xy -0.108434 0.264239)
+        (xy -0.147708 0.459059)
+        (xy -0.213165 0.63562)
+        (xy -0.302996 0.790305)
+        (xy -0.415392 0.919496)
+        (xy -0.550354 1.023193)
+        (xy -0.703747 1.098985)
+        (xy -0.871437 1.144461)
+        (xy -1.053424 1.159619)
+        (xy -1.053424 1.821077)
+        (xy 1.106134 1.821077)
+        (xy 1.106134 1.159619)
+        (xy 0.900672 1.141355)
+        (xy 0.718367 1.086562)
+        (xy 0.55922 0.99524)
+        (xy 0.42323 0.867389)
+        (xy 0.31437 0.70766)
+        (xy 0.236613 0.520705)
+        (xy 0.189959 0.306522)
+        (xy 0.174408 0.065112)
+        (xy 0.174408 -0.072864)
+        (xy 0.187155 -0.281292)
+        (xy 0.225395 -0.472495)
+        (xy 0.28913 -0.646472)
+        (xy 0.428462 -0.865645)
+        (xy 0.617017 -1.027069)
+        (xy 0.766792 -1.100708)
+        (xy 0.931898 -1.144891)
+        (xy 1.112335 -1.159619)
+        (xy 1.355903 -1.136365)
+        (xy 1.56571 -1.066602)
+        (xy 1.741754 -0.95033)
+        (xy 1.878524 -0.792027)
+        (xy 1.970508 -0.596174)
+        (xy 2.017706 -0.362769)
+        (xy 1.552618 -0.362769)
+        (xy 1.513667 -0.551323)
+        (xy 1.43092 -0.679803)
+        (xy 1.298952 -0.753636)
+        (xy 1.112335 -0.778247)
+        (xy 0.909053 -0.736583)
+        (xy 0.764294 -0.611591)
+        (xy 0.699785 -0.480074)
+        (xy 0.660253 -0.307733)
+        (xy 0.645697 -0.094568)
+        (xy 0.645697 0.075964)
+        (xy 0.658013 0.298001)
+        (xy 0.694962 0.476284)
+        (xy 0.756543 0.610815)
+        (xy 0.899364 0.737552)
+        (xy 1.106134 0.779797)
+        (xy 1.294301 0.755186)
+        (xy 1.42782 0.681354)
+        (xy 1.511342 0.555974)
+        (xy 1.549518 0.376721)
+        (xy 2.014606 0.376721)
+        (xy 1.973006 0.602375)
+        (xy 1.883348 0.793578)
+        (xy 1.74563 0.95033)
+        (xy 1.566743 1.066602)
+        (xy 1.353578 1.136365)
+        (xy 1.106134 1.159619)
+        (xy 1.106134 1.821077)
+        (xy 2.017706 1.821077)
+        (xy 2.679165 1.821077)
+        (xy 2.679165 -1.821077)
+        (xy 2.017706 -1.821077)
+        (xy -2.017706 -1.821077)
+      ) (layer "F.SilkS") (width 0) (fill solid) (tstamp bf8e9b3a-5e71-42fa-829c-88219ccd4164))
+    (fp_poly (pts
+        (xy -0.566632 -0.05116)
+        (xy -0.580757 -0.26889)
+        (xy -0.623132 -0.448724)
+        (xy -0.693756 -0.590662)
+        (xy -0.84801 -0.729025)
+        (xy -1.056525 -0.775146)
+        (xy -1.263876 -0.729607)
+        (xy -1.417743 -0.592987)
+        (xy -1.48854 -0.452686)
+        (xy -1.531431 -0.27466)
+        (xy -1.546417 -0.058911)
+        (xy -1.546417 0.05116)
+        (xy -1.532292 0.264411)
+        (xy -1.489918 0.443212)
+        (xy -1.419293 0.587561)
+        (xy -1.264264 0.730576)
+        (xy -1.053424 0.778247)
+        (xy -0.84646 0.73232)
+        (xy -0.693756 0.594537)
+        (xy -0.623821 0.453375)
+        (xy -0.581446 0.274832)
+        (xy -0.566632 0.058911)
+        (xy -0.566632 -0.05116)
+      ) (layer "F.SilkS") (width 0) (fill solid) (tstamp c2aa7588-3df7-4c18-941a-0920f2ece617))
   )
 
   (footprint "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-2-3.5-H_1x02_P3.50mm_Horizontal" (layer "F.Cu")
@@ -2378,7 +3147,7 @@
       (net 2 "GND") (pinfunction "Pin_1") (pintype "passive") (tstamp 54a041f8-5450-4e81-ac9f-ced7b9df0c8a))
     (pad "2" thru_hole circle (at 3.5 0 180) (size 2.4 2.4) (drill 1.2) (layers *.Cu *.Mask)
       (net 5 "VCC") (pinfunction "Pin_2") (pintype "passive") (tstamp ff2d5663-cb38-49a1-83b4-bd0598c6dfa9))
-    (model "${KICAD6_3DMODEL_DIR}/TerminalBlock_Phoenix.3dshapes/TerminalBlock_Phoenix_PT-1,5-2-3.5-H_1x02_P3.50mm_Horizontal.wrl"
+    (model "${KIPRJMOD}/packages3D/TerminalBlock_Phoenix_PT-1,5-2-3.5-H_1x02_P3.50mm_Horizontal.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2420,7 +3189,7 @@
       (net 11 "+5V") (pintype "passive") (tstamp 247afd2c-52ef-4c7d-b07c-c82f9d477f7d))
     (pad "2" smd roundrect (at 0.9125 0 180) (size 1.025 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.243902)
       (net 36 "Net-(R501-Pad2)") (pintype "passive") (tstamp 347fbd86-e56b-4f63-8d7a-74c66cfad8f1))
-    (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.wrl"
+    (model "${KIPRJMOD}/packages3D/R_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2462,7 +3231,7 @@
       (net 39 "Net-(R513-Pad2)") (pintype "passive") (tstamp c21f1988-8e13-427c-9f8d-c7f82261d782))
     (pad "2" smd roundrect (at 0.9125 0) (size 1.025 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.243902)
       (net 20 "Net-(C514-Pad2)") (pintype "passive") (tstamp dac18859-72b0-429b-969d-299f9e4fe321))
-    (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.wrl"
+    (model "${KIPRJMOD}/packages3D/R_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2507,7 +3276,7 @@
     (fp_line (start -1.27 1.27) (end -1.27 -0.635) (layer "F.Fab") (width 0.1) (tstamp db00cfe0-da66-44f2-ab36-2ea8e3887f42))
     (pad "1" thru_hole rect (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 22 "Net-(D501-Pad2)") (pinfunction "Pin_1") (pintype "passive") (tstamp fc0dc6d0-0d3d-4616-9152-f649e76bc777))
-    (model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x01_P2.54mm_Vertical.wrl"
+    (model "${KIPRJMOD}/packages3D/PinHeader_1x01_P2.54mm_Vertical.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2664,7 +3433,7 @@
       (net 11 "+5V") (pintype "passive") (tstamp af6c8f0b-bd7a-4528-828d-c352b5f29b63))
     (pad "2" thru_hole circle (at 2.5 0 90) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask)
       (net 2 "GND") (pintype "passive") (tstamp 5eca8058-36ec-4956-b06a-508ac87e0117))
-    (model "${KICAD6_3DMODEL_DIR}/Capacitor_THT.3dshapes/CP_Radial_D5.0mm_P2.50mm.wrl"
+    (model "${KIPRJMOD}/packages3D/CP_Radial_D5.0mm_P2.50mm.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2706,7 +3475,7 @@
       (net 1 "+9V") (pintype "passive") (tstamp 3e56f732-113f-4d2a-90e2-55329a96cfe7))
     (pad "2" smd roundrect (at 0.95 0) (size 1 1.45) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 2 "GND") (pintype "passive") (tstamp c9e7898e-5d40-4654-b067-5d55c23890be))
-    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.wrl"
+    (model "${KIPRJMOD}/packages3D/C_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2756,7 +3525,7 @@
       (net 5 "VCC") (pinfunction "K") (pintype "passive") (tstamp ee56a3f9-3f28-4e00-8464-5abb0e43c060))
     (pad "2" smd rect (at 1.75 0 90) (size 1.3 1.7) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 3 "/GDT_primary/TopSide_PGate") (pinfunction "A") (pintype "passive") (tstamp 348db17d-90c2-419a-91d7-43a609f429ee))
-    (model "${KICAD6_3DMODEL_DIR}/Diode_SMD.3dshapes/D_MiniMELF.wrl"
+    (model "${KIPRJMOD}/packages3D/D_MiniMELF.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2792,7 +3561,7 @@
     (fp_line (start -1.3 0.2) (end 1.3 0.2) (layer "F.Fab") (width 0.12) (tstamp 8e98ac32-5bf8-4340-98e1-e385d4406a0a))
     (pad "1" thru_hole circle (at 0 0) (size 2 2) (drill 1) (layers *.Cu *.Mask)
       (net 27 "Net-(D507-Pad2)") (pinfunction "1") (pintype "passive") (tstamp 9a74a3bd-57e8-424b-aa3f-9e2728f37ab1))
-    (model "${KICAD6_3DMODEL_DIR}/TestPoint.3dshapes/TestPoint_Loop_D2.50mm_Drill1.0mm.wrl"
+    (model "${KIPRJMOD}/packages3D/TestPoint_Loop_D2.50mm_Drill1.0mm.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2837,7 +3606,7 @@
     (fp_line (start -1.27 -0.635) (end -0.635 -1.27) (layer "F.Fab") (width 0.1) (tstamp 7fba851a-09a3-4857-8af7-0d4e1695ac3a))
     (pad "1" thru_hole rect (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 29 "/GDT_primary/GDT_terminal_B") (pinfunction "Pin_1") (pintype "passive") (tstamp 0d4f1bba-3282-49c1-8ebb-fe02a4b719bd))
-    (model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x01_P2.54mm_Vertical.wrl"
+    (model "${KIPRJMOD}/packages3D/PinHeader_1x01_P2.54mm_Vertical.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2909,7 +3678,7 @@
       (net 11 "+5V") (pintype "passive") (tstamp 2e17d176-8783-4e19-9da1-fe623ac127ef))
     (pad "2" smd roundrect (at 0.95 0 270) (size 1 1.45) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 2 "GND") (pintype "passive") (tstamp 1a117252-7ef7-4ee6-9bc7-b0c83f012537))
-    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.wrl"
+    (model "${KIPRJMOD}/packages3D/C_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2951,7 +3720,7 @@
       (net 16 "Net-(C511-Pad2)") (pintype "passive") (tstamp 3b45422c-61c9-4c4c-8419-46805e40b160))
     (pad "2" smd roundrect (at 0.9125 0) (size 1.025 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.243902)
       (net 27 "Net-(D507-Pad2)") (pintype "passive") (tstamp d5f9cf59-de46-4124-a762-a8ddf00da35a))
-    (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.wrl"
+    (model "${KIPRJMOD}/packages3D/R_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2993,7 +3762,7 @@
       (net 5 "VCC") (pintype "passive") (tstamp a2d12f76-ee70-4b94-bea3-19a156a2f849))
     (pad "2" smd roundrect (at 1.475 0) (size 1.15 1.8) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.217391)
       (net 2 "GND") (pintype "passive") (tstamp 29300218-d3f5-4911-bb29-f69e1c3b9a61))
-    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1206_3216Metric.wrl"
+    (model "${KIPRJMOD}/packages3D/C_1206_3216Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3055,7 +3824,7 @@
       (net 55 "/GDT_primary/GDT_terminal_A") (pinfunction "D") (pintype "passive") (tstamp 414fdeae-6af2-4f36-ba73-95f9f0810ad0))
     (pad "3" smd rect (at -4.2 2.28) (size 2.2 1.2) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 5 "VCC") (pinfunction "S") (pintype "passive") (tstamp 8c98286a-3542-4dc2-b732-66284aa845fa))
-    (model "${KICAD6_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/TO-252-2.wrl"
+    (model "${KIPRJMOD}/packages3D/TO-252-2.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3100,7 +3869,7 @@
     (fp_line (start -1.27 1.27) (end -1.27 -0.635) (layer "F.Fab") (width 0.1) (tstamp efcd1042-cd1a-4c34-be5b-943c8875dd05))
     (pad "1" thru_hole rect (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 2 "GND") (pinfunction "Pin_1") (pintype "passive") (tstamp 4c6c43ab-9517-4bd9-bb7c-f5b535bc6275))
-    (model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x01_P2.54mm_Vertical.wrl"
+    (model "${KIPRJMOD}/packages3D/PinHeader_1x01_P2.54mm_Vertical.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3142,7 +3911,7 @@
       (net 8 "Net-(C406-Pad1)") (pintype "passive") (tstamp 4cff93be-fdcd-4bfb-9cd9-bd02d57b4a7a))
     (pad "2" smd roundrect (at 0.9125 0) (size 1.025 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.243902)
       (net 10 "Net-(C407-Pad1)") (pintype "passive") (tstamp b2dcbe3d-83b1-4e2e-8b2c-bc4d47cc07c9))
-    (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.wrl"
+    (model "${KIPRJMOD}/packages3D/R_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3200,7 +3969,7 @@
       (net 12 "Net-(C502-Pad2)") (pinfunction "2") (pintype "passive") (tstamp 46ac20e3-842f-406b-92f2-3fa72d5eb27f))
     (pad "3" thru_hole circle (at -5.08 0) (size 1.44 1.44) (drill 0.8) (layers *.Cu *.Mask)
       (net 2 "GND") (pinfunction "3") (pintype "passive") (tstamp f3420bf0-f319-427c-9598-1783abdaf5d4))
-    (model "${KICAD6_3DMODEL_DIR}/Potentiometer_THT.3dshapes/Potentiometer_Bourns_3266Z_Horizontal.wrl"
+    (model "${KIPRJMOD}/packages3D/Potentiometer_Bourns_3266Z_Horizontal.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3245,7 +4014,7 @@
     (fp_line (start 1.27 1.27) (end -1.27 1.27) (layer "F.Fab") (width 0.1) (tstamp ea439095-437a-49ef-986b-6e22e9ecb476))
     (pad "1" thru_hole rect (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 15 "Net-(C509-Pad2)") (pinfunction "Pin_1") (pintype "passive") (tstamp 0ba3b9ab-c966-456f-988d-e22015023a45))
-    (model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x01_P2.54mm_Vertical.wrl"
+    (model "${KIPRJMOD}/packages3D/PinHeader_1x01_P2.54mm_Vertical.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3287,7 +4056,7 @@
       (net 13 "Net-(C508-Pad1)") (pintype "passive") (tstamp d2578259-1231-4a3d-8119-16049062dc06))
     (pad "2" smd roundrect (at 2.3125 0 270) (size 1.225 2.65) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.204082)
       (net 2 "GND") (pintype "passive") (tstamp f83445c0-6855-4197-ac5c-f218e6772f5f))
-    (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_2010_5025Metric.wrl"
+    (model "${KIPRJMOD}/packages3D/R_2010_5025Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3329,7 +4098,7 @@
       (net 51 "Net-(D510-Pad2)") (pintype "passive") (tstamp 5484b3d4-9314-4853-827f-6833aeb2e706))
     (pad "2" smd roundrect (at 0.9125 0 270) (size 1.025 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.243902)
       (net 17 "LED_overcurrent") (pintype "passive") (tstamp 23dc62fc-e1b0-4bc5-b33d-26943076fd32))
-    (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.wrl"
+    (model "${KIPRJMOD}/packages3D/R_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3373,7 +4142,7 @@
       (net 2 "GND") (pinfunction "K") (pintype "passive") (tstamp 3439f6d3-07f3-441d-a516-ffc3a99f95b5))
     (pad "2" smd roundrect (at 0.9375 0 180) (size 0.975 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 53 "/Power_regulation/9V_LED") (pinfunction "A") (pintype "passive") (tstamp 4412721e-a164-4a24-8453-25f71da293d2))
-    (model "${KICAD6_3DMODEL_DIR}/LED_SMD.3dshapes/LED_0805_2012Metric.wrl"
+    (model "${KIPRJMOD}/packages3D/LED_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3415,7 +4184,7 @@
       (net 19 "Net-(C514-Pad1)") (pintype "passive") (tstamp d8e4eae8-b7c5-40f9-aef4-9e9f5a799ea3))
     (pad "2" smd roundrect (at 0.95 0 270) (size 1 1.45) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 20 "Net-(C514-Pad2)") (pintype "passive") (tstamp 2d909a3c-45f4-4619-a889-9ffc2fa6cbc7))
-    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.wrl"
+    (model "${KIPRJMOD}/packages3D/C_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3451,7 +4220,7 @@
     (fp_line (start -1.3 -0.2) (end -1.3 0.2) (layer "F.Fab") (width 0.12) (tstamp dcf6be87-51ff-433c-b191-da0943967043))
     (pad "1" thru_hole circle (at 0 0) (size 2 2) (drill 1) (layers *.Cu *.Mask)
       (net 17 "LED_overcurrent") (pinfunction "1") (pintype "passive") (tstamp 78ba8b31-4864-4243-b7cd-bada3425a0b2))
-    (model "${KICAD6_3DMODEL_DIR}/TestPoint.3dshapes/TestPoint_Loop_D2.50mm_Drill1.0mm.wrl"
+    (model "${KIPRJMOD}/packages3D/TestPoint_Loop_D2.50mm_Drill1.0mm.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3493,7 +4262,7 @@
       (net 21 "Net-(C515-Pad1)") (pintype "passive") (tstamp da24bf96-aff1-4c96-be3a-efae997554c9))
     (pad "2" smd roundrect (at 0.95 0 180) (size 1 1.45) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 2 "GND") (pintype "passive") (tstamp f6b5365d-07c7-4b53-b122-a97d22dc25ac))
-    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.wrl"
+    (model "${KIPRJMOD}/packages3D/C_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3562,7 +4331,7 @@
       (net 2 "GND") (pintype "input") (tstamp 24c1bd27-7716-44b5-9339-5439e7d0e24a))
     (pad "14" smd roundrect (at 2.475 -3.81 90) (size 1.95 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 11 "+5V") (pinfunction "VCC") (pintype "power_in") (tstamp d4beadcd-8a3c-4fd7-9b81-a7da67b2cbd5))
-    (model "${KICAD6_3DMODEL_DIR}/Package_SO.3dshapes/SOIC-14_3.9x8.7mm_P1.27mm.step"
+    (model "${KIPRJMOD}/packages3D/SOIC-14_3.9x8.7mm_P1.27mm.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3604,7 +4373,7 @@
       (net 38 "Net-(R504-Pad1)") (pintype "passive") (tstamp 1b8dfb4b-ee2f-4fb7-ab1c-14b38699decc))
     (pad "2" smd roundrect (at 0.9125 0 270) (size 1.025 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.243902)
       (net 11 "+5V") (pintype "passive") (tstamp 1f9e6acc-b9c5-4e05-853f-835682fb030c))
-    (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.wrl"
+    (model "${KIPRJMOD}/packages3D/R_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3646,7 +4415,7 @@
       (net 11 "+5V") (pintype "passive") (tstamp 12240358-8bdc-4fb8-bd8b-b6c3dee42447))
     (pad "2" smd roundrect (at 0.9125 0) (size 1.025 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.243902)
       (net 54 "/Power_regulation/5V_LED") (pintype "passive") (tstamp 56e4c0b8-7226-4823-8b07-df9251da3d03))
-    (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.wrl"
+    (model "${KIPRJMOD}/packages3D/R_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3690,7 +4459,7 @@
       (net 2 "GND") (pinfunction "K") (pintype "passive") (tstamp 73623cfc-014b-47fd-92d0-6707647c1bda))
     (pad "2" smd roundrect (at 0.9375 0 180) (size 0.975 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 52 "/Power_regulation/Vcc_LED") (pinfunction "A") (pintype "passive") (tstamp 5ff1de05-1f32-4941-8d1d-0e95f3b9c0f1))
-    (model "${KICAD6_3DMODEL_DIR}/LED_SMD.3dshapes/LED_0805_2012Metric.wrl"
+    (model "${KIPRJMOD}/packages3D/LED_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3752,7 +4521,7 @@
       (net 55 "/GDT_primary/GDT_terminal_A") (pinfunction "D") (pintype "passive") (tstamp 759d1759-8efa-46a2-b5bd-abe154cf77c1))
     (pad "3" smd rect (at -4.2 2.28) (size 2.2 1.2) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 2 "GND") (pinfunction "S") (pintype "passive") (tstamp a3d9d2ac-defa-4fcb-84a4-bd9a82f1f2f8))
-    (model "${KICAD6_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/TO-252-2.wrl"
+    (model "${KIPRJMOD}/packages3D/TO-252-2.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3794,7 +4563,7 @@
       (net 11 "+5V") (pintype "passive") (tstamp a453a9bc-d960-47c5-9ea8-a88d80daa69a))
     (pad "2" smd roundrect (at 0.95 0) (size 1 1.45) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 2 "GND") (pintype "passive") (tstamp 7606011a-3104-4bfa-8f27-9c8cf76dc175))
-    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.wrl"
+    (model "${KIPRJMOD}/packages3D/C_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3836,7 +4605,7 @@
       (net 39 "Net-(R513-Pad2)") (pintype "passive") (tstamp 748e6f67-a693-4573-bcdf-39edd79b3289))
     (pad "2" smd roundrect (at 0.9125 0) (size 1.025 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.243902)
       (net 19 "Net-(C514-Pad1)") (pintype "passive") (tstamp 885c97f0-156b-4d6a-8547-90ac07c66e35))
-    (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.wrl"
+    (model "${KIPRJMOD}/packages3D/R_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3880,7 +4649,7 @@
       (net 2 "GND") (pinfunction "K") (pintype "passive") (tstamp cfc20785-07fa-4c8a-aae6-1d26d4848b4b))
     (pad "2" smd roundrect (at 0.9375 0) (size 0.975 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 50 "Net-(D509-Pad2)") (pinfunction "A") (pintype "passive") (tstamp 41729ac0-60b3-4efc-aab0-439edcbdcbf5))
-    (model "${KICAD6_3DMODEL_DIR}/LED_SMD.3dshapes/LED_0805_2012Metric.wrl"
+    (model "${KIPRJMOD}/packages3D/LED_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3924,7 +4693,7 @@
       (net 18 "Net-(C513-Pad1)") (pinfunction "K") (pintype "passive") (tstamp 26f67f2b-31de-4729-9015-5a6d811f300c))
     (pad "2" smd roundrect (at 0.9375 0 90) (size 0.975 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 27 "Net-(D507-Pad2)") (pinfunction "A") (pintype "passive") (tstamp 0d576140-85bd-4be8-83a1-a8b315dd4c8d))
-    (model "${KICAD6_3DMODEL_DIR}/Diode_SMD.3dshapes/D_0805_2012Metric.wrl"
+    (model "${KIPRJMOD}/packages3D/D_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3968,7 +4737,7 @@
       (net 24 "LED_inteep") (pinfunction "K") (pintype "passive") (tstamp 165d9c6e-82f3-4f2d-8e46-05c5b19c3238))
     (pad "2" smd roundrect (at 0.9375 0 90) (size 0.975 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 25 "Net-(D505-Pad2)") (pinfunction "A") (pintype "passive") (tstamp b4e60c62-8720-4940-a5b5-ac9362a23618))
-    (model "${KICAD6_3DMODEL_DIR}/Diode_SMD.3dshapes/D_0805_2012Metric.wrl"
+    (model "${KIPRJMOD}/packages3D/D_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4125,7 +4894,7 @@
       (net 1 "+9V") (pintype "passive") (tstamp 5f5f72eb-d855-4874-940f-fb211194a016))
     (pad "2" thru_hole circle (at 2.5 0 90) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask)
       (net 2 "GND") (pintype "passive") (tstamp b9210f69-855d-47f6-9975-84f2cc9f1ea9))
-    (model "${KICAD6_3DMODEL_DIR}/Capacitor_THT.3dshapes/CP_Radial_D5.0mm_P2.50mm.wrl"
+    (model "${KIPRJMOD}/packages3D/CP_Radial_D5.0mm_P2.50mm.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4167,7 +4936,7 @@
       (net 11 "+5V") (pintype "passive") (tstamp 1d052d2e-158f-4951-a775-b6f3aea59be5))
     (pad "2" smd roundrect (at 0.95 0 90) (size 1 1.45) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 2 "GND") (pintype "passive") (tstamp e42e2db9-97e0-48aa-b6c1-2eb97fbf148e))
-    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.wrl"
+    (model "${KIPRJMOD}/packages3D/C_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4209,7 +4978,7 @@
       (net 3 "/GDT_primary/TopSide_PGate") (pintype "passive") (tstamp 8cd67d04-6af1-407f-ae83-17df4e30da5f))
     (pad "2" smd roundrect (at 0.95 0 180) (size 1 1.45) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 4 "/GDT_primary/TopSide_NGate") (pintype "passive") (tstamp 3c0c14d8-7c8f-4dba-b452-608375a66a89))
-    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.wrl"
+    (model "${KIPRJMOD}/packages3D/C_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4271,7 +5040,7 @@
       (net 8 "Net-(C406-Pad1)") (pinfunction "D") (pintype "passive") (tstamp dcf90d24-ac73-44c6-b2bd-3df6567c4411))
     (pad "3" smd rect (at -4.2 2.28) (size 2.2 1.2) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 2 "GND") (pinfunction "S") (pintype "passive") (tstamp 5ed01bd2-4b7f-4459-a33c-1eb4a7f3d56f))
-    (model "${KICAD6_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/TO-252-2.wrl"
+    (model "${KIPRJMOD}/packages3D/TO-252-2.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4338,7 +5107,7 @@
       (net 29 "/GDT_primary/GDT_terminal_B") (pinfunction "Pin_1") (pintype "passive") (tstamp 5a713cd1-3e3a-4be6-888c-905565fb3504))
     (pad "2" thru_hole circle (at 3.5 0 90) (size 2.4 2.4) (drill 1.2) (layers *.Cu *.Mask)
       (net 55 "/GDT_primary/GDT_terminal_A") (pinfunction "Pin_2") (pintype "passive") (tstamp ea211ca6-d74b-4073-923c-d13f426a36a4))
-    (model "${KICAD6_3DMODEL_DIR}/TerminalBlock_Phoenix.3dshapes/TerminalBlock_Phoenix_PT-1,5-2-3.5-H_1x02_P3.50mm_Horizontal.wrl"
+    (model "${KIPRJMOD}/packages3D/TerminalBlock_Phoenix_PT-1,5-2-3.5-H_1x02_P3.50mm_Horizontal.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4380,7 +5149,7 @@
       (net 37 "Net-(R502-Pad1)") (pintype "passive") (tstamp 536e69e7-d556-4efa-a134-3dd1e5b853a1))
     (pad "2" smd roundrect (at 0.9125 0) (size 1.025 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.243902)
       (net 2 "GND") (pintype "passive") (tstamp cf50d449-6e0c-4f5a-a1ae-c70707fc1a8e))
-    (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.wrl"
+    (model "${KIPRJMOD}/packages3D/R_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4449,7 +5218,7 @@
       (net 42 "Net-(U503-Pad10)") (pinfunction "~{R}") (pintype "input") (tstamp 17f20023-7552-4583-95c0-0d1a37060c2a))
     (pad "14" smd roundrect (at 2.475 -3.81 270) (size 1.95 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 11 "+5V") (pinfunction "VCC") (pintype "power_in") (tstamp 09884934-838f-4d97-924d-0e3b861fb279))
-    (model "${KICAD6_3DMODEL_DIR}/Package_SO.3dshapes/SOIC-14_3.9x8.7mm_P1.27mm.step"
+    (model "${KIPRJMOD}/packages3D/SOIC-14_3.9x8.7mm_P1.27mm.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4496,7 +5265,7 @@
       (net 34 "Net-(J510-Pad1)") (pinfunction "Pin_1") (pintype "passive") (tstamp 27faf5fd-16cf-468f-898b-19db2e7d6f28))
     (pad "2" thru_hole oval (at 0 2.54 270) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 35 "Net-(J510-Pad2)") (pinfunction "Pin_2") (pintype "passive") (tstamp 76b588b9-be28-47ef-be6f-fd85a17cb948))
-    (model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x02_P2.54mm_Vertical.wrl"
+    (model "${KIPRJMOD}/packages3D/PinHeader_1x02_P2.54mm_Vertical.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4540,7 +5309,7 @@
       (net 28 "Net-(D511-Pad1)") (pinfunction "K") (pintype "passive") (tstamp 0f0afe93-30c1-4885-8b6b-e40c2b5bdbdc))
     (pad "2" smd roundrect (at 0.9375 0) (size 0.975 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 21 "Net-(C515-Pad1)") (pinfunction "A") (pintype "passive") (tstamp 57237acd-ba97-4c0e-b80b-4f4906e57e06))
-    (model "${KICAD6_3DMODEL_DIR}/Diode_SMD.3dshapes/D_0805_2012Metric.wrl"
+    (model "${KIPRJMOD}/packages3D/D_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4582,7 +5351,7 @@
       (net 18 "Net-(C513-Pad1)") (pintype "passive") (tstamp aa615361-9665-4381-b71a-e10ae964e553))
     (pad "2" smd roundrect (at 0.95 0 270) (size 1 1.45) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 2 "GND") (pintype "passive") (tstamp 416a3713-595b-4bea-a6f4-825641d3ae2a))
-    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.wrl"
+    (model "${KIPRJMOD}/packages3D/C_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4618,7 +5387,7 @@
     (fp_line (start 1.3 -0.2) (end -1.3 -0.2) (layer "F.Fab") (width 0.12) (tstamp e96da482-3448-41a4-8d16-468702ae863d))
     (pad "1" thru_hole circle (at 0 0) (size 2 2) (drill 1) (layers *.Cu *.Mask)
       (net 12 "Net-(C502-Pad2)") (pinfunction "1") (pintype "passive") (tstamp fb7e3737-2324-4f25-96e1-2fec10983838))
-    (model "${KICAD6_3DMODEL_DIR}/TestPoint.3dshapes/TestPoint_Loop_D2.50mm_Drill1.0mm.wrl"
+    (model "${KIPRJMOD}/packages3D/TestPoint_Loop_D2.50mm_Drill1.0mm.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4654,7 +5423,7 @@
     (fp_line (start -1.3 -0.2) (end -1.3 0.2) (layer "F.Fab") (width 0.12) (tstamp d0299835-f627-4f24-8805-b83a68a28db9))
     (pad "1" thru_hole circle (at 0 0) (size 2 2) (drill 1) (layers *.Cu *.Mask)
       (net 20 "Net-(C514-Pad2)") (pinfunction "1") (pintype "passive") (tstamp 7c89ed9d-bee3-4131-8f38-2a8a56553f2c))
-    (model "${KICAD6_3DMODEL_DIR}/TestPoint.3dshapes/TestPoint_Loop_D2.50mm_Drill1.0mm.wrl"
+    (model "${KIPRJMOD}/packages3D/TestPoint_Loop_D2.50mm_Drill1.0mm.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4696,7 +5465,7 @@
       (net 17 "LED_overcurrent") (pintype "passive") (tstamp 808c8744-dc89-4fbd-80a5-91e26e1ee815))
     (pad "2" smd roundrect (at 0.95 0 270) (size 1 1.45) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 2 "GND") (pintype "passive") (tstamp 6b14cc18-31d0-4853-88b4-cd5df3634cec))
-    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.wrl"
+    (model "${KIPRJMOD}/packages3D/C_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4743,7 +5512,7 @@
       (net 32 "GDT_INB") (pinfunction "Pin_1") (pintype "passive") (tstamp b438e392-f44c-406e-a549-6f44c68d5b81))
     (pad "2" thru_hole oval (at 0 2.54 270) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 33 "GDT_INA") (pinfunction "Pin_2") (pintype "passive") (tstamp 941abda9-ddf0-42d3-9722-16cea63f37a5))
-    (model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x02_P2.54mm_Vertical.wrl"
+    (model "${KIPRJMOD}/packages3D/PinHeader_1x02_P2.54mm_Vertical.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4785,7 +5554,7 @@
       (net 13 "Net-(C508-Pad1)") (pintype "passive") (tstamp b6c552b9-b939-4823-a075-8a706d6feef8))
     (pad "2" smd roundrect (at 2.3125 0 270) (size 1.225 2.65) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.204082)
       (net 2 "GND") (pintype "passive") (tstamp 891f7afd-736f-46a0-9164-249cecb8bf16))
-    (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_2010_5025Metric.wrl"
+    (model "${KIPRJMOD}/packages3D/R_2010_5025Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4821,7 +5590,7 @@
       (net 30 "Net-(J507-Pad1)") (pinfunction "1") (pintype "passive") (tstamp b2de5d41-91e6-4c06-a956-8d6c750e54d2))
     (pad "2" thru_hole circle (at 5 0 270) (size 2.6 2.6) (drill 1.3) (layers *.Cu *.Mask)
       (net 31 "Net-(J507-Pad3)") (pinfunction "2") (pintype "passive") (tstamp dcb357e8-9237-4fd7-a22a-ed4fe914907b))
-    (model "${KICAD6_3DMODEL_DIR}/Inductor_THT.3dshapes/L_Radial_D7.5mm_P5.00mm_Fastron_07P.wrl"
+    (model "${KIPRJMOD}/packages3D/L_Radial_D7.5mm_P5.00mm_Fastron_07P.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4866,7 +5635,7 @@
     (fp_line (start -1.27 -0.635) (end -0.635 -1.27) (layer "F.Fab") (width 0.1) (tstamp 9611263b-74b3-45f2-b2bb-67507e4b476f))
     (pad "1" thru_hole rect (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 5 "VCC") (pinfunction "Pin_1") (pintype "passive") (tstamp d09f6cd5-0414-4182-8722-10eb325983f5))
-    (model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x01_P2.54mm_Vertical.wrl"
+    (model "${KIPRJMOD}/packages3D/PinHeader_1x01_P2.54mm_Vertical.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4908,7 +5677,7 @@
       (net 50 "Net-(D509-Pad2)") (pintype "passive") (tstamp a27dafce-b6cc-482b-883a-da98e8122203))
     (pad "2" smd roundrect (at 0.9125 0) (size 1.025 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.243902)
       (net 24 "LED_inteep") (pintype "passive") (tstamp 613b4d36-cd3d-47c4-b1a2-ceef97485fa1))
-    (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.wrl"
+    (model "${KIPRJMOD}/packages3D/R_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4950,7 +5719,7 @@
       (net 5 "VCC") (pintype "passive") (tstamp e7c93b58-2496-4c30-83e0-1a4387e4123e))
     (pad "2" smd roundrect (at 0.95 0 270) (size 1 1.45) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 2 "GND") (pintype "passive") (tstamp b2659b58-fb92-43a2-aa3b-4fbfbdda65f6))
-    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.wrl"
+    (model "${KIPRJMOD}/packages3D/C_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -5045,7 +5814,7 @@
       (net 2 "GND") (pintype "input") (tstamp 88185c16-adeb-483e-96da-12a31f0255f8))
     (pad "14" smd roundrect (at 2.475 -3.81 90) (size 1.95 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 11 "+5V") (pinfunction "VCC") (pintype "power_in") (tstamp a338431a-71cb-4928-9c97-70f472e28ea8))
-    (model "${KICAD6_3DMODEL_DIR}/Package_SO.3dshapes/SOIC-14_3.9x8.7mm_P1.27mm.step"
+    (model "${KIPRJMOD}/packages3D/SOIC-14_3.9x8.7mm_P1.27mm.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -5087,7 +5856,7 @@
       (net 14 "Net-(C509-Pad1)") (pintype "passive") (tstamp 258ad862-282f-4004-92d8-7070b06a71ca))
     (pad "2" smd roundrect (at 0.95 0 90) (size 1 1.45) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 15 "Net-(C509-Pad2)") (pintype "passive") (tstamp 71b86466-a014-4a2f-94f2-40197b0be229))
-    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.wrl"
+    (model "${KIPRJMOD}/packages3D/C_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -5123,7 +5892,7 @@
     (fp_line (start 1.3 0.2) (end 1.3 -0.2) (layer "F.Fab") (width 0.12) (tstamp b8dcaaef-54a4-481e-bc8b-00926fb81192))
     (pad "1" thru_hole circle (at 0 0) (size 2 2) (drill 1) (layers *.Cu *.Mask)
       (net 25 "Net-(D505-Pad2)") (pinfunction "1") (pintype "passive") (tstamp b90cde7a-434c-4162-a1d9-f38104496481))
-    (model "${KICAD6_3DMODEL_DIR}/TestPoint.3dshapes/TestPoint_Loop_D2.50mm_Drill1.0mm.wrl"
+    (model "${KIPRJMOD}/packages3D/TestPoint_Loop_D2.50mm_Drill1.0mm.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -5167,7 +5936,7 @@
       (net 24 "LED_inteep") (pinfunction "K") (pintype "passive") (tstamp bd19f47b-5268-4a85-8987-5ac0b78b537c))
     (pad "2" smd roundrect (at 0.9375 0 90) (size 0.975 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 26 "Net-(D506-Pad2)") (pinfunction "A") (pintype "passive") (tstamp 8cf48dd4-c3a5-4a54-879a-2feef1745754))
-    (model "${KICAD6_3DMODEL_DIR}/Diode_SMD.3dshapes/D_0805_2012Metric.wrl"
+    (model "${KIPRJMOD}/packages3D/D_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -5203,7 +5972,7 @@
     (fp_line (start -1.3 0.2) (end 1.3 0.2) (layer "F.Fab") (width 0.12) (tstamp 98290d35-b3c4-4cab-ba58-fd3cc0b83386))
     (pad "1" thru_hole circle (at 0 0) (size 2 2) (drill 1) (layers *.Cu *.Mask)
       (net 26 "Net-(D506-Pad2)") (pinfunction "1") (pintype "passive") (tstamp 65ad9f36-0c9c-4401-b5b5-0ce63e24acf5))
-    (model "${KICAD6_3DMODEL_DIR}/TestPoint.3dshapes/TestPoint_Loop_D2.50mm_Drill1.0mm.wrl"
+    (model "${KIPRJMOD}/packages3D/TestPoint_Loop_D2.50mm_Drill1.0mm.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -5247,7 +6016,7 @@
       (net 13 "Net-(C508-Pad1)") (pinfunction "K") (pintype "passive") (tstamp 2449006a-db8d-4419-a90e-63704ea9796b))
     (pad "2" smd roundrect (at 0.9375 0 180) (size 0.975 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 22 "Net-(D501-Pad2)") (pinfunction "A") (pintype "passive") (tstamp 2ca7f82d-0cfb-44e2-a7c1-806a5986d298))
-    (model "${KICAD6_3DMODEL_DIR}/Diode_SMD.3dshapes/D_0805_2012Metric.wrl"
+    (model "${KIPRJMOD}/packages3D/D_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -5304,7 +6073,7 @@
       (net 1 "+9V") (pinfunction "VDD") (pintype "input") (tstamp 7f27d0f3-e510-41f5-9148-d4823241f605))
     (pad "8" smd roundrect (at 2.475 -1.905) (size 1.95 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 9 "/GDT_primary/BottomSide_NGate") (pinfunction "OUTB") (pintype "input") (tstamp 047d5f2a-7698-4542-9779-8022368a1e47))
-    (model "${KICAD6_3DMODEL_DIR}/Package_SO.3dshapes/SOIC-8_3.9x4.9mm_P1.27mm.wrl"
+    (model "${KIPRJMOD}/packages3D/SOIC-8_3.9x4.9mm_P1.27mm.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -5352,7 +6121,7 @@
       (net 31 "Net-(J507-Pad3)") (pintype "passive") (tstamp 84c4cc3f-be93-4281-9d27-eff088845544))
     (pad "2" thru_hole oval (at 27.94 0 180) (size 2.4 2.4) (drill 1.2) (layers *.Cu *.Mask)
       (net 15 "Net-(C509-Pad2)") (pintype "passive") (tstamp 74de612b-d389-4671-901e-05f3ba0c5ee1))
-    (model "${KICAD6_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_Power_L25.0mm_W9.0mm_P27.94mm.wrl"
+    (model "${KIPRJMOD}/packages3D/R_Axial_Power_L25.0mm_W9.0mm_P27.94mm.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -5394,7 +6163,7 @@
       (net 11 "+5V") (pintype "passive") (tstamp 29817ef7-849a-4e26-a231-374694d3c1dd))
     (pad "2" smd roundrect (at 0.95 0 180) (size 1 1.45) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 2 "GND") (pintype "passive") (tstamp b46d3ca1-1b5a-47ef-b81a-576146c21f69))
-    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.wrl"
+    (model "${KIPRJMOD}/packages3D/C_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -5436,7 +6205,7 @@
       (net 13 "Net-(C508-Pad1)") (pintype "passive") (tstamp 4a52744e-0c30-41c3-98c9-03f9e6b74eaa))
     (pad "2" smd roundrect (at 0.95 0 180) (size 1 1.45) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 2 "GND") (pintype "passive") (tstamp 2cc412bb-e749-4d49-9b0f-fcec9980961b))
-    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.wrl"
+    (model "${KIPRJMOD}/packages3D/C_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -5478,7 +6247,7 @@
       (net 1 "+9V") (pintype "passive") (tstamp 14ac01c2-90e7-427d-ac40-a08d5960bba0))
     (pad "2" smd roundrect (at 0.95 0 180) (size 1 1.45) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 2 "GND") (pintype "passive") (tstamp a2d41661-674f-40f7-b915-e8a735212316))
-    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.wrl"
+    (model "${KIPRJMOD}/packages3D/C_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -5520,7 +6289,7 @@
       (net 14 "Net-(C509-Pad1)") (pintype "passive") (tstamp 31e90acf-b13b-4cfd-a616-b08f19d3fb96))
     (pad "2" smd roundrect (at 0.95 0 270) (size 1 1.45) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 16 "Net-(C511-Pad2)") (pintype "passive") (tstamp a076e220-c6b5-4fd8-8265-d81c48b7c7f4))
-    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.wrl"
+    (model "${KIPRJMOD}/packages3D/C_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -5562,7 +6331,7 @@
       (net 8 "Net-(C406-Pad1)") (pintype "passive") (tstamp 0ebca484-db5c-4a11-8ded-619293166a3c))
     (pad "2" smd roundrect (at 2.55 0) (size 1.8 5.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.138889)
       (net 29 "/GDT_primary/GDT_terminal_B") (pintype "passive") (tstamp ca359971-697d-4c84-9691-519497c9d927))
-    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_2220_5650Metric.wrl"
+    (model "${KIPRJMOD}/packages3D/C_2220_5650Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -5630,7 +6399,7 @@
       (net 11 "+5V") (pintype "passive") (tstamp 1bbbc1f9-8106-40c2-98ea-b7867e2e90a7))
     (pad "2" smd roundrect (at 0.9125 0 270) (size 1.025 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.243902)
       (net 39 "Net-(R513-Pad2)") (pintype "passive") (tstamp 9da884e0-dc2d-4508-a44b-fefc053363d8))
-    (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.wrl"
+    (model "${KIPRJMOD}/packages3D/R_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -5674,7 +6443,7 @@
       (net 2 "GND") (pinfunction "K") (pintype "passive") (tstamp e09bdf41-b3d2-41af-b4c8-a85e82b21a24))
     (pad "2" smd roundrect (at 0.9375 0 180) (size 0.975 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 54 "/Power_regulation/5V_LED") (pinfunction "A") (pintype "passive") (tstamp 729b18af-d586-4b11-9d88-f33650ab9f28))
-    (model "${KICAD6_3DMODEL_DIR}/LED_SMD.3dshapes/LED_0805_2012Metric.wrl"
+    (model "${KIPRJMOD}/packages3D/LED_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -5736,7 +6505,7 @@
       (net 2 "GND") (pinfunction "GND") (pintype "power_in") (tstamp 78128d61-a446-46a9-9f49-a818b4a2ce34))
     (pad "3" smd rect (at -4.2 2.28) (size 2.2 1.2) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 6 "+12V") (pinfunction "OUT") (pintype "power_out") (tstamp ab9e6416-a2c1-4340-876d-07dfe5fda225))
-    (model "${KICAD6_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/TO-252-2.wrl"
+    (model "${KIPRJMOD}/packages3D/TO-252-2.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))

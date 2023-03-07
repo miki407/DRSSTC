@@ -4,6 +4,13 @@
 
   (paper "A4")
 
+  (title_block
+    (title "DRSSTC controller")
+    (date "2023-03-07")
+    (rev "0.2")
+    (company "Politehnika")
+  )
+
   (lib_symbols
   )
 
