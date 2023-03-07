@@ -389,8 +389,8 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "",
-      "vrml": ""
+      "step": "Full Bridge.step",
+      "vrml": "Full Bridge.wrl"
     },
     "page_layout_descr_file": ""
   },
