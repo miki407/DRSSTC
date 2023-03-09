@@ -55,7 +55,10 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "courtyards_overlap|94514999|134344001|0d1f3c68-dab9-474a-b7e9-528d7e669fec|d09bb74c-feb7-4508-8b27-d633e866cdd2",
+        "courtyards_overlap|94514999|137138001|d09bb74c-feb7-4508-8b27-d633e866cdd2|d585697b-20d2-4fae-af01-6ea3116b5e91"
+      ],
       "meta": {
         "version": 2
       },
@@ -85,8 +88,8 @@
         "padstack": "error",
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
-        "silk_over_copper": "warning",
-        "silk_overlap": "warning",
+        "silk_over_copper": "ignore",
+        "silk_overlap": "ignore",
         "skew_out_of_range": "error",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",

@@ -140,9 +140,9 @@
     (fp_line (start 1.6 -0.8) (end 1.6 0.8) (layer "F.Fab") (width 0.1) (tstamp 3c8ccec0-42b7-4a11-b080-90d7bbdace8b))
     (fp_line (start -1.6 0.8) (end -1.6 -0.8) (layer "F.Fab") (width 0.1) (tstamp a5f601e4-0a8a-431e-ade6-eb0599a10022))
     (fp_line (start -1.6 -0.8) (end 1.6 -0.8) (layer "F.Fab") (width 0.1) (tstamp e304beb6-7407-456b-b29b-dd81ada99ad7))
-    (pad "1" smd roundrect (at -1.4625 0 180) (size 1.125 1.75) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.222222)
+    (pad "1" smd roundrect (at -1.4625 0 180) (size 1.125 1.75) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2222222222)
       (net 7 "Net-(D4-Pad1)") (pintype "passive") (tstamp 8ce0d3a9-96ec-4ac1-9bc0-3972e3943088))
-    (pad "2" smd roundrect (at 1.4625 0 180) (size 1.125 1.75) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.222222)
+    (pad "2" smd roundrect (at 1.4625 0 180) (size 1.125 1.75) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2222222222)
       (net 8 "Net-(D4-Pad2)") (pintype "passive") (tstamp 28a8e0c4-7304-4641-ab33-269deb9514ee))
     (model "${KIPRJMOD}/packages3D/R_1206_3216Metric.wrl"
       (offset (xyz 0 0 0))
@@ -341,11 +341,11 @@
     (tags "kb_params=eyJBbGlnbm1lbnRDaG9pY2UiOiAiQ2VudGVyIiwgIkNhcExlZnRDaG9pY2UiOiAiWyIsICJDYXBSaWdodENob2ljZSI6ICJdIiwgIkZvbnRDb21ib0JveCI6ICJSb2JvdG8tQm9sZCIsICJIZWlnaHRDdHJsIjogIjIiLCAiTGF5ZXJDb21ib0JveCI6ICJGLlNpbGtTIiwgIk11bHRpTGluZVRleHQiOiAiVkJVUy0iLCAiUGFkZGluZ0JvdHRvbUN0cmwiOiAiNSIsICJQYWRkaW5nTGVmdEN0cmwiOiAiNSIsICJQYWRkaW5nUmlnaHRDdHJsIjogIjUiLCAiUGFkZGluZ1RvcEN0cmwiOiAiNSIsICJXaWR0aEN0cmwiOiAiIn0=")
     (attr board_only exclude_from_pos_files exclude_from_bom)
     (fp_text reference "kibuzzard-640732D0" (at 0 -4.869077) (layer "F.SilkS") hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
       (tstamp ce9e1e39-8f30-420a-9f12-97ace915a551)
     )
     (fp_text value "G***" (at 0 4.869077) (layer "F.SilkS") hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
       (tstamp 223f13f3-9178-40e6-a7ac-504936fb5d89)
     )
     (fp_poly (pts
@@ -642,9 +642,9 @@
     (fp_line (start -1.6 -0.8) (end 1.6 -0.8) (layer "F.Fab") (width 0.1) (tstamp 7e069ca6-d270-4f92-8def-a286fce19d23))
     (fp_line (start 1.6 0.8) (end -1.6 0.8) (layer "F.Fab") (width 0.1) (tstamp d45f22f3-f05c-4f10-8be4-16703aaab652))
     (fp_line (start -1.6 0.8) (end -1.6 -0.8) (layer "F.Fab") (width 0.1) (tstamp d64c0117-58a0-40b6-be3d-b3f0a82bb009))
-    (pad "1" smd roundrect (at -1.4625 0) (size 1.125 1.75) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.222222)
+    (pad "1" smd roundrect (at -1.4625 0) (size 1.125 1.75) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2222222222)
       (net 5 "Net-(D3-Pad1)") (pintype "passive") (tstamp 2294a5ae-9f95-49cd-969d-5340338f852d))
-    (pad "2" smd roundrect (at 1.4625 0) (size 1.125 1.75) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.222222)
+    (pad "2" smd roundrect (at 1.4625 0) (size 1.125 1.75) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2222222222)
       (net 6 "Net-(D3-Pad2)") (pintype "passive") (tstamp cc4ded6f-1681-4714-a27b-f0f8bd9b93f6))
     (model "${KIPRJMOD}/packages3D/R_1206_3216Metric.wrl"
       (offset (xyz 0 0 0))
@@ -875,9 +875,9 @@
     (fp_line (start 1.6 -0.8) (end 1.6 0.8) (layer "F.Fab") (width 0.1) (tstamp 5f0dd53b-bfcc-4177-b6d3-4082d97e509e))
     (fp_line (start -1.6 0.8) (end -1.6 -0.8) (layer "F.Fab") (width 0.1) (tstamp 924a5b13-343d-4fb7-aad4-40695fbd129a))
     (fp_line (start -1.6 -0.8) (end 1.6 -0.8) (layer "F.Fab") (width 0.1) (tstamp d9d83706-76d1-4d4b-b212-7b6e56bfdcd9))
-    (pad "1" smd roundrect (at -1.4625 0) (size 1.125 1.75) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.222222)
+    (pad "1" smd roundrect (at -1.4625 0) (size 1.125 1.75) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2222222222)
       (net 12 "Net-(D7-Pad1)") (pintype "passive") (tstamp 64cafb17-8205-4457-b99f-c0dea13c2cf8))
-    (pad "2" smd roundrect (at 1.4625 0) (size 1.125 1.75) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.222222)
+    (pad "2" smd roundrect (at 1.4625 0) (size 1.125 1.75) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2222222222)
       (net 13 "Net-(D7-Pad2)") (pintype "passive") (tstamp 6f4ce76d-7057-4feb-b5de-4979d9df0fa2))
     (model "${KIPRJMOD}/packages3D/R_1206_3216Metric.wrl"
       (offset (xyz 0 0 0))
@@ -943,9 +943,9 @@
     (fp_line (start 1.6 -0.8) (end 1.6 0.8) (layer "F.Fab") (width 0.1) (tstamp 32067086-3362-43ba-a376-c98c4dd9977a))
     (fp_line (start -1.6 -0.8) (end 1.6 -0.8) (layer "F.Fab") (width 0.1) (tstamp 414bc009-ebc5-4bd7-a9f2-058c6a8bb1ec))
     (fp_line (start 1.6 0.8) (end -1.6 0.8) (layer "F.Fab") (width 0.1) (tstamp bf464104-2ca2-4df3-b262-c08c6cc93ccf))
-    (pad "1" smd roundrect (at -1.4625 0) (size 1.125 1.75) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.222222)
+    (pad "1" smd roundrect (at -1.4625 0) (size 1.125 1.75) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2222222222)
       (net 1 "Net-(D1-Pad1)") (pintype "passive") (tstamp 9168852c-f55c-48be-b578-eba90234727f))
-    (pad "2" smd roundrect (at 1.4625 0) (size 1.125 1.75) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.222222)
+    (pad "2" smd roundrect (at 1.4625 0) (size 1.125 1.75) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2222222222)
       (net 2 "Net-(D1-Pad2)") (pintype "passive") (tstamp 506d9a29-f499-4e69-ac6c-b5b6b6bf881e))
     (model "${KIPRJMOD}/packages3D/R_1206_3216Metric.wrl"
       (offset (xyz 0 0 0))
@@ -1109,9 +1109,9 @@
     (fp_line (start 1.6 0.8) (end -1.6 0.8) (layer "F.Fab") (width 0.1) (tstamp 523e35fb-1e3a-4a94-89ed-26504626fe94))
     (fp_line (start -1.6 -0.8) (end 1.6 -0.8) (layer "F.Fab") (width 0.1) (tstamp 9eedc161-8146-41b9-9acc-dce4aa9911cf))
     (fp_line (start -1.6 0.8) (end -1.6 -0.8) (layer "F.Fab") (width 0.1) (tstamp df0ba981-16cb-4a22-b8e4-5f93000ef74c))
-    (pad "1" smd roundrect (at -1.4625 0 180) (size 1.125 1.75) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.222222)
+    (pad "1" smd roundrect (at -1.4625 0 180) (size 1.125 1.75) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2222222222)
       (net 14 "Net-(D8-Pad1)") (pintype "passive") (tstamp ba6b5251-c681-42e1-9924-7385311f88a8))
-    (pad "2" smd roundrect (at 1.4625 0 180) (size 1.125 1.75) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.222222)
+    (pad "2" smd roundrect (at 1.4625 0 180) (size 1.125 1.75) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2222222222)
       (net 15 "Net-(D8-Pad2)") (pintype "passive") (tstamp 3b82b6ad-d48a-46e6-a768-e24482201d93))
     (model "${KIPRJMOD}/packages3D/R_1206_3216Metric.wrl"
       (offset (xyz 0 0 0))
@@ -1312,11 +1312,11 @@
     (tags "kb_params=eyJBbGlnbm1lbnRDaG9pY2UiOiAiQ2VudGVyIiwgIkNhcExlZnRDaG9pY2UiOiAiWyIsICJDYXBSaWdodENob2ljZSI6ICJdIiwgIkZvbnRDb21ib0JveCI6ICJSb2JvdG8tQm9sZCIsICJIZWlnaHRDdHJsIjogIjIiLCAiTGF5ZXJDb21ib0JveCI6ICJGLlNpbGtTIiwgIk11bHRpTGluZVRleHQiOiAiT1VUUFVUIiwgIlBhZGRpbmdCb3R0b21DdHJsIjogIjUiLCAiUGFkZGluZ0xlZnRDdHJsIjogIjUiLCAiUGFkZGluZ1JpZ2h0Q3RybCI6ICI1IiwgIlBhZGRpbmdUb3BDdHJsIjogIjUiLCAiV2lkdGhDdHJsIjogIiJ9")
     (attr board_only exclude_from_pos_files exclude_from_bom)
     (fp_text reference "kibuzzard-640732E7" (at 0 -4.869077 90) (layer "F.SilkS") hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
       (tstamp d29fdbfd-6a78-489a-80b7-f36466d9e07a)
     )
     (fp_text value "G***" (at 0 4.869077 90) (layer "F.SilkS") hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
       (tstamp 31f1c0ce-833f-4b71-8e28-01e5c0e43756)
     )
     (fp_poly (pts
@@ -1519,11 +1519,11 @@
     (tags "kb_params=eyJBbGlnbm1lbnRDaG9pY2UiOiAiQ2VudGVyIiwgIkNhcExlZnRDaG9pY2UiOiAiWyIsICJDYXBSaWdodENob2ljZSI6ICJdIiwgIkZvbnRDb21ib0JveCI6ICJSb2JvdG8tQm9sZCIsICJIZWlnaHRDdHJsIjogIjIiLCAiTGF5ZXJDb21ib0JveCI6ICJGLlNpbGtTIiwgIk11bHRpTGluZVRleHQiOiAiVkJVUysiLCAiUGFkZGluZ0JvdHRvbUN0cmwiOiAiNSIsICJQYWRkaW5nTGVmdEN0cmwiOiAiNSIsICJQYWRkaW5nUmlnaHRDdHJsIjogIjUiLCAiUGFkZGluZ1RvcEN0cmwiOiAiNSIsICJXaWR0aEN0cmwiOiAiIn0=")
     (attr board_only exclude_from_pos_files exclude_from_bom)
     (fp_text reference "kibuzzard-640732BF" (at 0 -4.869077) (layer "F.SilkS") hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
       (tstamp 5cc1c81e-3a85-4c01-95c4-9cc833cdc147)
     )
     (fp_text value "G***" (at 0 4.869077) (layer "F.SilkS") hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
       (tstamp c3891f2e-aece-4c2c-9eba-49634f311274)
     )
     (fp_poly (pts
@@ -1824,9 +1824,9 @@
     (fp_line (start 1.6 -0.8) (end 1.6 0.8) (layer "F.Fab") (width 0.1) (tstamp 10d72106-370b-4bd5-bcb8-3af9bf66016f))
     (fp_line (start 1.6 0.8) (end -1.6 0.8) (layer "F.Fab") (width 0.1) (tstamp 8637f92e-93f9-405a-9103-1090d16fad2f))
     (fp_line (start -1.6 0.8) (end -1.6 -0.8) (layer "F.Fab") (width 0.1) (tstamp 96d1ab4c-cb86-4730-b127-e9cfc8e19b4b))
-    (pad "1" smd roundrect (at -1.4625 0 180) (size 1.125 1.75) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.222222)
+    (pad "1" smd roundrect (at -1.4625 0 180) (size 1.125 1.75) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2222222222)
       (net 11 "Net-(D6-Pad1)") (pintype "passive") (tstamp 5748d4db-7894-4e28-95a5-f14d03673f0b))
-    (pad "2" smd roundrect (at 1.4625 0 180) (size 1.125 1.75) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.222222)
+    (pad "2" smd roundrect (at 1.4625 0 180) (size 1.125 1.75) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2222222222)
       (net 20 "Net-(Q6-Pad1)") (pintype "passive") (tstamp 022926bf-729e-4fa9-9d5f-2ccc22c6477c))
     (model "${KIPRJMOD}/packages3D/R_1206_3216Metric.wrl"
       (offset (xyz 0 0 0))
@@ -2070,9 +2070,9 @@
     (fp_line (start 1.6 0.8) (end -1.6 0.8) (layer "F.Fab") (width 0.1) (tstamp 6857e6a5-426a-43e4-91a8-5431498d4dfa))
     (fp_line (start 1.6 -0.8) (end 1.6 0.8) (layer "F.Fab") (width 0.1) (tstamp 7b1f20ea-96ed-4d91-8876-a2c19dc0f50e))
     (fp_line (start -1.6 0.8) (end -1.6 -0.8) (layer "F.Fab") (width 0.1) (tstamp 9d6192ed-d3da-418f-afdc-77430a842837))
-    (pad "1" smd roundrect (at -1.4625 0) (size 1.125 1.75) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.222222)
+    (pad "1" smd roundrect (at -1.4625 0) (size 1.125 1.75) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2222222222)
       (net 9 "Net-(D5-Pad1)") (pintype "passive") (tstamp 4673a1b8-a959-4148-8fbd-de89e036cf06))
-    (pad "2" smd roundrect (at 1.4625 0) (size 1.125 1.75) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.222222)
+    (pad "2" smd roundrect (at 1.4625 0) (size 1.125 1.75) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2222222222)
       (net 10 "Net-(D5-Pad2)") (pintype "passive") (tstamp 6d229597-b754-4af2-96a3-7312f37cc878))
     (model "${KIPRJMOD}/packages3D/R_1206_3216Metric.wrl"
       (offset (xyz 0 0 0))
@@ -2430,9 +2430,9 @@
     (fp_line (start -1.6 -0.8) (end 1.6 -0.8) (layer "F.Fab") (width 0.1) (tstamp 7ab0e78c-1ebc-48a2-af31-1d8684953ac5))
     (fp_line (start 1.6 -0.8) (end 1.6 0.8) (layer "F.Fab") (width 0.1) (tstamp cf847092-1bda-4e7a-8e10-00bd9b64ec0e))
     (fp_line (start 1.6 0.8) (end -1.6 0.8) (layer "F.Fab") (width 0.1) (tstamp f4de7ece-cbc4-44c1-b78c-d986d5a00947))
-    (pad "1" smd roundrect (at -1.4625 0 180) (size 1.125 1.75) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.222222)
+    (pad "1" smd roundrect (at -1.4625 0 180) (size 1.125 1.75) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2222222222)
       (net 3 "Net-(D2-Pad1)") (pintype "passive") (tstamp c010fae3-a118-4e8b-9d83-0e246062c690))
-    (pad "2" smd roundrect (at 1.4625 0 180) (size 1.125 1.75) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.222222)
+    (pad "2" smd roundrect (at 1.4625 0 180) (size 1.125 1.75) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2222222222)
       (net 4 "Net-(D2-Pad2)") (pintype "passive") (tstamp 38d864e3-8b44-4bf1-83ba-490ad01a25c6))
     (model "${KIPRJMOD}/packages3D/R_1206_3216Metric.wrl"
       (offset (xyz 0 0 0))
