@@ -24,7 +24,7 @@ The coil is designed with a skeleton topload and a vertical breakout point locat
 ## Circuit
 The circuit for the control circuit and inverter are inspired by the UD2.7c and EasyBridge made by [Loneoceans](https://www.loneoceans.com/labs/index.htm). These circuits have been modified to fit the needs of this project.
 The interactive BOM of these boards are here:
-[Inverter](https://htmlpreview.github.io/?https://github.com/miki407/DRSSTC/blob/main/Controller/DRSSTC%20controller/bom/ibom.html)
+[Inverter](https://htmlpreview.github.io/?https://github.com/miki407/DRSSTC/blob/main/Full%20Bridge/Full%20Bridge/bom/ibom.html)
 [Control circuit](https://htmlpreview.github.io/?https://github.com/miki407/DRSSTC/blob/main/Controller/DRSSTC%20controller/bom/ibom.html)
 
 ## Future additions
